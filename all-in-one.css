@@ -587,10 +587,10 @@ a.link:hover{
 }
 
 a.link.search,.panel-toolbar  a.link.search span {
-    background: url("../images/icons/icons_search02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_search02.png") no-repeat scroll 0 center transparent;
 }
 .table-detail a.link.search{
-	background:url(../images/icons/icons_select01.png) 5px center no-repeat #77b6f8;
+	background:url(./icons_select01.png) 5px center no-repeat #77b6f8;
 	float:left;
 	color:#fff;
 	margin:3px;
@@ -599,17 +599,17 @@ a.link.search,.panel-toolbar  a.link.search span {
 	padding:1px 5px 1px 20px;
 }
 .panel-toolbar  a.link.search:hover span {
-    background: url("../images/icons/icons_search02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_search02.png") no-repeat scroll 0 center transparent;
 }
 a.link.ajaxSearch,.panel-toolbar  a.link.ajaxSearch span {
-    background: url("../images/icons/icons_search.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_search.png") no-repeat scroll 0 center transparent;
 }
 a.link.add,.panel-toolbar  a.link.add span {
-    background: url("../images/icons/icons_add.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_add.png") no-repeat scroll 0 center transparent;
     margin:0 2px 0 0;
 }
 .table-detail a.link.add{
-	background:url(../images/icons/icons_select01.png) 5px center no-repeat #77b6f8;
+	background:url(./icons_select01.png) 5px center no-repeat #77b6f8;
 	float:left;
 	color:#fff;
 	margin:3px;
@@ -618,66 +618,66 @@ a.link.add,.panel-toolbar  a.link.add span {
 	padding:1px 5px 1px 20px;
 }
 .panel-toolbar  a.link.add:hover span {
-    background: url("../images/icons/icons_add02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_add02.png") no-repeat scroll 0 center transparent;
 }
 a.link.add2 {
-    background: url("../images/icons/icons_addOld.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_addOld.png") no-repeat scroll 0 center transparent;
 }
 a.link.reference,.panel-toolbar  a.link.reference span {
-	background: url("../images/icons/icons_search.png") no-repeat scroll 0 center transparent;
+	background: url("./icons_search.png") no-repeat scroll 0 center transparent;
 }
 a.link.ok,.panel-toolbar  a.link.ok span {
-	background: url(../images/icons/icons_getT.png) no-repeat scroll 0 center transparent;
+	background: url(./icons_getT.png) no-repeat scroll 0 center transparent;
 }
 .panel-toolbar  a.link.ok:hover span {
-	background: url(../images/icons/icons_getT02.png) no-repeat scroll 0 center transparent;
+	background: url(./icons_getT02.png) no-repeat scroll 0 center transparent;
 }
 a.link.del,.panel-toolbar a.link.del span {
-    background: url("../images/icons/icons_del.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_del.png") no-repeat scroll 0 center transparent;
 }
 .l-layout-header-inner a.link.del,.panel-toolbar a.link.del:hover span {
-    background: url("../images/icons/icons_del02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_del02.png") no-repeat scroll 0 center transparent;
 }
 .personPic_btn a.link.del{
-	background: url("../images/icons/icons_del02.png") no-repeat scroll 6px center #77b6f8;
+	background: url("./icons_del02.png") no-repeat scroll 6px center #77b6f8;
 	color:#fff;
 	padding:4px 6px 4px 25px;
 	border-radius:3px;
 }
-.personPic_btn a.link.del:hover{background: url("../images/icons/icons_del02.png") no-repeat scroll 6px center #55a8fd;}
+.personPic_btn a.link.del:hover{background: url("./icons_del02.png") no-repeat scroll 6px center #55a8fd;}
 a.link.save,.panel-toolbar a.link.save span {
-    background: url("../images/icons/icons_save02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_save02.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.save:hover span {
-    background: url("../images/icons/icons_save02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_save02.png") no-repeat scroll 0 center transparent;
 }
 a.link.del.disabled,.panel-toolba a.link.del.disabled span{
-	background:url(../images/icons/icons_del.png) 0px center no-repeat;
+	background:url(./icons_del.png) 0px center no-repeat;
 }
 .panel-toolba a.link.del.disabled:hover span{
-	background:url(../images/icons/icons_del02.png) 0px center no-repeat;
+	background:url(./icons_del02.png) 0px center no-repeat;
 }
 a.link.customdel, .panel-toolba a.link.customdel span{
-    background:url(../images/icons/icons_del.png) 0px center no-repeat;
+    background:url(./icons_del.png) 0px center no-repeat;
 }
 
 a.link.back,.panel-toolbar a.link.back span {
-    background: url("../images/icons/icons_back.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_back.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.back:hover span {
-    background: url("../images/icons/icons_back02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_back02.png") no-repeat scroll 0 center transparent;
 }
 a.link.urge,.panel-toolbar a.link.urge span {
-    background: url("../images/icons/icons_urge.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_urge.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.urge:hover span {
-    background: url("../images/icons/icons_urge02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_urge02.png") no-repeat scroll 0 center transparent;
 }
 a.link.init,.panel-toolbar a.link.init span {
-    background: url("../images/icons/icons_init.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_init.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.init:hover span {
-    background: url("../images/icons/icons_init02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_init02.png") no-repeat scroll 0 center transparent;
 }
 a.link.show,.panel-toolbar a.link.show span {
     background: url("../images/menu/show.gif") no-repeat scroll 0 center transparent;
@@ -686,16 +686,16 @@ a.link.no,.panel-toolbar  a.link.no span {
     background: url("../images/menu/no.png") no-repeat scroll 0 center transparent;
 }
 a.link.undo,.panel-toolbar a.link.undo span {
-    background: url("../images/icons/icons_reload.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_reload.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.undo:hover span {
-    background: url("../images/icons/icons_reload02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_reload02.png") no-repeat scroll 0 center transparent;
 }
 a.link.redo,.panel-toolbar a.link.redo span {
-    background: url("../images/icons/icons_redo.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_redo.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.redo:hover span {
-    background: url("../images/icons/icons_redo_02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_redo_02.png") no-repeat scroll 0 center transparent;
 }
 a.link.sended {
     background: url("../images/error/error_btn_bg.png") repeat-x scroll 0 0 transparent;
@@ -708,10 +708,10 @@ a.link.sended {
 	height: 19px;
 }
 a.link.update,.panel-toolbar a.link.update span {
-    background: url("../images/icons/icons_update.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_update.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.update:hover span {
-    background: url("../images/icons/icons_update02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_update02.png") no-repeat scroll 0 center transparent;
 }
 a.link.upload,.panel-toolbar a.link.upload span {
     background: url("../images/menu/upload.png") no-repeat scroll 0 center transparent;
@@ -726,10 +726,10 @@ a.link.xml-design,.panel-toolbar a.link.xml-design span {
     background: url("../images/menu/xml-design.png") no-repeat scroll 0 center transparent;
 }
 a.link.preview,.panel-toolbar a.link.preview span {
-    background: url("../images/icons/icons_preview.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_preview.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.preview:hover span {
-    background: url("../images/icons/icons_preview02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_preview02.png") no-repeat scroll 0 center transparent;
 }
 a.link.expand,.panel-toolbar a.link.expand span {
     background: url("../images/icon/expand.gif") no-repeat scroll 0 center transparent;
@@ -756,31 +756,31 @@ a.link.prev,.panel-toolbar a.link.prev span {
     background: url("../images/button/prev.gif") no-repeat scroll 0 center transparent;
 }
 a.link.edit,.panel-toolbar a.link.edit span {
-    background: url("../images/icons/icons_edit.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_edit.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.edit:hover span {
-    background: url("../images/icons/icons_edit02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_edit02.png") no-repeat scroll 0 center transparent;
 }
 a.link.copy,.panel-toolbar a.link.copy span {
-    background: url("../images/button/copy02.png") no-repeat scroll 0 center transparent;
+    background: url("./copy02.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.copy:hover span {
-    background: url("../images/button/copy02.png") no-repeat scroll 0 center transparent;
+    background: url("./copy02.png") no-repeat scroll 0 center transparent;
 }
 a.link.test,.panel-toolbar a.link.test span {
-    background: url("../images/icons/icons_test.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_test.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.test:hover span {
-    background: url("../images/icons/icons_test02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_test02.png") no-repeat scroll 0 center transparent;
 }
 a.link.detail,.panel-toolbar a.link.detail span {
-    background: url("../images/icons/icons_detail02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_detail02.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.detail:hover span {
-    background: url("../images/icons/icons_detail02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_detail02.png") no-repeat scroll 0 center transparent;
 }
 .table-detail a.link.detail{
-	background:url(../images/icons/icons_detail02.png) 5px center no-repeat #77b6f8;
+	background:url(./icons_detail02.png) 5px center no-repeat #77b6f8;
 	color:#fff;
 	margin:3px;
 	border-radius:3px;
@@ -788,10 +788,10 @@ a.link.detail,.panel-toolbar a.link.detail span {
 	padding:3px 5px 3px 20px;
 }
 a.link.switchuser,.panel-toolbar a.link.switchuser span {
-    background: url("../images/icons/icons_switchuser02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_switchuser02.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.switchuser:hover span {
-    background: url("../images/icons/icons_switchuser02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_switchuser02.png") no-repeat scroll 0 center transparent;
 }
 a.link.flowDesign,.panel-toolbar a.link.flowDesign span {
     background: url("../images/button/flow_design02.png") no-repeat scroll 0 center transparent;
@@ -800,30 +800,30 @@ a.link.flowDesign,.panel-toolbar a.link.flowDesign span {
     background: url("../images/button/flow_design02.png") no-repeat scroll 0 center transparent;
 }
 a.link.dataList,.panel-toolbar a.link.dataList span {
-    background: url("../images/icons/icons_dataList.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_dataList.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.dataList:hover span {
-    background: url("../images/icons/icons_dataList02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_dataList02.png") no-repeat scroll 0 center transparent;
 }
 a.link.uploadPhoto,.panel-toolbar a.link.uploadPhoto span {
-    background: url("../images/icons/icons_uploadPhoto.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_uploadPhoto.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.uploadPhoto:hover span {
-    background: url("../images/icons/icons_uploadPhoto02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_uploadPhoto02.png") no-repeat scroll 0 center transparent;
 }
 .personPic_btn a.link.uploadPhoto{
-	background: url("../images/icons/icons_uploadPhoto3.png") no-repeat scroll 7px center #77b6f8;
+	background: url("./icons_uploadPhoto3.png") no-repeat scroll 7px center #77b6f8;
 	color:#fff;
 	padding:4px 6px 4px 26px;
 	border-radius:3px;
 	margin-right:3px;
 }
-.personPic_btn a.link.uploadPhoto:hover{background: url("../images/icons/icons_uploadPhoto3.png") no-repeat scroll 7px center #55a8fd;}
+.personPic_btn a.link.uploadPhoto:hover{background: url("./icons_uploadPhoto3.png") no-repeat scroll 7px center #55a8fd;}
 a.link.run,.panel-toolbar a.link.run span {
-    background: url("../images/icons/icons_run02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_run02.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.run:hover span {
-    background: url("../images/icons/icons_run02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_run02.png") no-repeat scroll 0 center transparent;
 }
 a.link.goForward,.panel-toolbar a.link.goForward span {
     background: url("../images/button/goForward02.png") no-repeat scroll 0 center transparent;
@@ -844,10 +844,10 @@ a.link.initRights,.panel-toolbar a.link.initRights span {
     background: url("../images/button/resetPwd02.png") no-repeat scroll 0 center transparent;
 }
 a.link.reset,.panel-toolbar a.link.reset span{
-	background: url("../images/icons/icons_reset02.png") no-repeat scroll 0 center transparent;
+	background: url("./icons_reset02.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.reset:hover span{
-	background: url("../images/icons/icons_reset02.png") no-repeat scroll 0 center transparent;
+	background: url("./icons_reset02.png") no-repeat scroll 0 center transparent;
 }
 a.link.send{
 	background:url(../images/menu/add.gif) 0px -2px no-repeat;
@@ -857,10 +857,10 @@ a.link.end{
 }
 
 a.link.done,.panel-toolbar a.link.done span{
-	background:url(../images/icons/icons_ok.png) 0px center no-repeat;
+	background:url(./icons_ok.png) 0px center no-repeat;
 }
 .panel-toolbar a.link.done:hover span{
-	background:url(../images/icons/icons_ok02.png) 0px center no-repeat;
+	background:url(./icons_ok02.png) 0px center no-repeat;
 }
 
 a.link.get,.panel-toolbar a.link.get span{
@@ -870,37 +870,37 @@ a.link.get,.panel-toolbar a.link.get span {
     background: url("../images/button/get.gif") no-repeat scroll 0 center transparent;
 }
 a.link.addContact,.panel-toolbar a.link.addContact span {
-	background: url("../images/icons/icons_add.png") no-repeat scroll 0 center transparent;
+	background: url("./icons_add.png") no-repeat scroll 0 center transparent;
 }
 a.link.clean,.panel-toolbar a.link.clean span {
-    background: url("../images/icons/icons_clean.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_clean.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.clean:hover span {
-    background: url("../images/icons/icons_clean02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_clean02.png") no-repeat scroll 0 center transparent;
 }
 a.link.download,.panel-toolbar a.link.download span {
-    background: url("../images/icons/icons_download.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_download.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.download:hover span {
-    background: url("../images/icons/icons_download02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_download02.png") no-repeat scroll 0 center transparent;
 }
 a.link.export,.panel-toolbar a.link.export span {
-    background: url("../images/icons/icons_export.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_export.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.export:hover span {
-    background: url("../images/icons/icons_export02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_export02.png") no-repeat scroll 0 center transparent;
 }
 a.link.import,.panel-toolbar a.link.import span {
-    background: url("../images/icons/icons_import.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_import.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.import:hover span {
-    background: url("../images/icons/icons_import02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_import02.png") no-repeat scroll 0 center transparent;
 }
 a.link.reload{
     background: url("../images/button/reload.png") no-repeat scroll 0 1px transparent;
 }
 a.link.signature{
-	background: url("../images/icons/icon_framebtn3.png") no-repeat scroll 0 1px transparent;
+	background: url("./icon_framebtn3.png") no-repeat scroll 0 1px transparent;
 	border: 1px solid #dddddd;
 	border-radius: 3px 3px 3px 3px;
 	cursor: pointer;
@@ -910,31 +910,31 @@ a.link.signature{
 	width: auto !important;
 }
 .panel-toolbar a.link.reload span {
-    background: url("../images/icons/icons_reload.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_reload.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.reload:hover span {
-    background: url("../images/icons/icons_reload02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_reload02.png") no-repeat scroll 0 center transparent;
 }
 a.link.upload,.panel-toolbar a.link.upload span {
-    background: url("../images/icons/icons_upload.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_upload.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.upload:hover span {
-    background: url("../images/icons/icons_upload02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_upload02.png") no-repeat scroll 0 center transparent;
 }
 a.link.var,.panel-toolbar a.link.var span {
     background: url("../images/bpm/code.gif") no-repeat scroll 0 0 transparent;
 }
 a.link.backUp,.panel-toolbar a.link.backUp span {
-    background: url("../images/icons/icons_backUp.png") no-repeat scroll 0 -2px transparent;
+    background: url("./icons_backUp.png") no-repeat scroll 0 -2px transparent;
 }
 .panel-toolbar a.link.backUp:hover span {
-    background: url("../images/icons/icons_backUp02.png") no-repeat scroll 0 -2px transparent;
+    background: url("./icons_backUp02.png") no-repeat scroll 0 -2px transparent;
 }
 a.link.setting,.panel-toolbar a.link.setting span {
-    background: url("../images/icons/icons_setting02.png") no-repeat scroll 0 1px transparent;
+    background: url("./icons_setting02.png") no-repeat scroll 0 1px transparent;
 }
 .panel-toolbar a.link.setting:hover span {
-    background: url("../images/icons/icons_setting02.png") no-repeat scroll 0 1px transparent;
+    background: url("./icons_setting02.png") no-repeat scroll 0 1px transparent;
 }
 a.link.grant,.panel-toolbar a.link.grant span {
     background: url("../images/menu/grant.png") no-repeat scroll 0 0 transparent;
@@ -949,10 +949,10 @@ a.link.deploy,.panel-toolbar a.link.deploy span {
     background: url("../images/icon/deploy.gif") no-repeat scroll 0 -2px transparent;
 }
 a.link.auth,.panel-toolbar a.link.auth span {
-    background: url("../images/icons/icons_auth.png") no-repeat scroll 0 -2px transparent;
+    background: url("./icons_auth.png") no-repeat scroll 0 -2px transparent;
 }
 .panel-toolbar a.link.auth:hover span {
-    background: url("../images/icons/icons_auth02.png") no-repeat scroll 0 -2px transparent;
+    background: url("./icons_auth02.png") no-repeat scroll 0 -2px transparent;
 }
 a.link.lock,.panel-toolbar a.link.lock span {
     background: url("../images/menu/lock.png") no-repeat scroll 0 -2px transparent;
@@ -964,22 +964,22 @@ a.link.unlock,.panel-toolbar a.link.unlock span {
     background: url("../images/menu/unlock.png") no-repeat scroll 0 0 transparent;
 }
 a.link.newVersion,.panel-toolbar a.link.newVersion span {
-    background: url("../images/icons/icons_newVersion.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_newVersion.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.newVersion:hover span {
-    background: url("../images/icons/icons_newVersion02.png") no-repeat scroll 0 center transparent;
+    background: url("./icons_newVersion02.png") no-repeat scroll 0 center transparent;
 }
 a.link.cancel,.panel-toolbar a.link.cancel span {
-    background: url("../images/icons/icons_cancel.png") no-repeat scroll 0 0 transparent;
+    background: url("./icons_cancel.png") no-repeat scroll 0 0 transparent;
 }
 .panel-toolbar a.link.cancel:hover span {
-    background: url("../images/icons/icons_cancel02.png") no-repeat scroll 0 0 transparent;
+    background: url("./icons_cancel02.png") no-repeat scroll 0 0 transparent;
 }
 .panel-toolbar a.link.selectFile span {
     background: url("../images/icon/file.gif") no-repeat scroll 0 2px transparent;
 }
 a.link.selectFile{
-    background:url(../images/icons/icons_file.png) 5px center no-repeat #5ae2c4;
+    background:url(./icons_file.png) 5px center no-repeat #5ae2c4;
 	float:left;
 	color:#fff;
 	margin:3px;
@@ -988,10 +988,10 @@ a.link.selectFile{
 	padding:1px 5px 1px 20px;
 }
 a.link.print,.panel-toolbar a.link.print span {
-    background: url("../images/icons/icons_dataList02.png") no-repeat scroll 0 -2px transparent;
+    background: url("./icons_dataList02.png") no-repeat scroll 0 -2px transparent;
 }
 .panel-toolbar a.link.print:hover span {
-    background: url("../images/icons/icons_dataList02.png") no-repeat scroll 0 -2px transparent;
+    background: url("./icons_dataList02.png") no-repeat scroll 0 -2px transparent;
 }
 a.link.printSetting,.panel-toolbar  a.link.printSetting span {
     background: url("../images/icon/printSetting.gif") no-repeat scroll 0 2px transparent;
@@ -1000,10 +1000,10 @@ a.link.printPreView,.panel-toolbar a.link.printPreView span {
     background: url("../images/icon/printPreView.gif") no-repeat scroll 0 2px transparent;
 }
 a.link.sendMessage,.panel-toolbar a.link.sendMessage span {
-    background: url("../images/icons/icons_sendMessage02.png") no-repeat scroll 0 0px transparent;
+    background: url("./icons_sendMessage02.png") no-repeat scroll 0 0px transparent;
 }
 .panel-toolbar a.link.sendMessage:hover span {
-    background: url("../images/icons/icons_sendMessage02.png") no-repeat scroll 0 0px transparent;
+    background: url("./icons_sendMessage02.png") no-repeat scroll 0 0px transparent;
 }
 a.link.addMessage,.panel-toolbar a.link.addMessage span {
     background: url("../images/icon/addMessage.gif") no-repeat scroll 0 0px transparent;
@@ -1015,16 +1015,16 @@ a.link.parameter,.panel-toolbar a.link.parameter span {
     background: url("../images/button/parameter02.png") no-repeat scroll 0 -2px transparent;
 }
 a.link.close,.panel-toolbar a.link.close span {
-    background: url("../images/icons/icons_cancel.png") no-repeat scroll 0 -2px transparent;
+    background: url("./icons_cancel.png") no-repeat scroll 0 -2px transparent;
 }
 .panel-toolbar a.link.close:hover span {
-    background: url("../images/icons/icons_cancel02.png") no-repeat scroll 0 -2px transparent;
+    background: url("./icons_cancel02.png") no-repeat scroll 0 -2px transparent;
 }
 a.link.primary,.panel-toolbar a.link.primary span {
-    background: url("../images/icons/icons_primary.png") no-repeat scroll 0 -2px transparent;
+    background: url("./icons_primary.png") no-repeat scroll 0 -2px transparent;
 }
 .panel-toolbar a.link.primary:hover span {
-    background: url("../images/icons/icons_primary02.png") no-repeat scroll 0 -2px transparent;
+    background: url("./icons_primary02.png") no-repeat scroll 0 -2px transparent;
 }
 a.link.notPrimary,.panel-toolbar a.link.notPrimary span {
     background: url("../images/icon/notPrimary.gif") no-repeat scroll 0 -2px transparent;
@@ -1036,22 +1036,22 @@ a.link.noCharge,.panel-toolbar a.link.noCharge span {
     background: url("../images/icon/noCharge.gif") no-repeat scroll 0 -2px transparent;
 }
 a.link.reject,.panel-toolbar a.link.reject span {
-    background: url("../images/icons/icons_reject02.png") no-repeat scroll 0 -2px transparent;
+    background: url("./icons_reject02.png") no-repeat scroll 0 -2px transparent;
 }
 .panel-toolbar a.link.reject:hover span {
-    background: url("../images/icons/icons_reject02.png") no-repeat scroll 0 -2px transparent;
+    background: url("./icons_reject02.png") no-repeat scroll 0 -2px transparent;
 }
 a.link.rejectToStart,.panel-toolbar a.link.rejectToStart span {
-    background: url("../images/icons/icons_rejectToStart02.png") no-repeat scroll 0 -2px transparent;
+    background: url("./icons_rejectToStart02.png") no-repeat scroll 0 -2px transparent;
 }
 .panel-toolbar a.link.rejectToStart:hover span {
-    background: url("../images/icons/icons_rejectToStart02.png") no-repeat scroll 0 -2px transparent;
+    background: url("./icons_rejectToStart02.png") no-repeat scroll 0 -2px transparent;
 }
 a.link.agree,.panel-toolbar a.link.agree span {
-    background: url("../images/icons/icons_agree02.png") no-repeat scroll 0 0 transparent;
+    background: url("./icons_agree02.png") no-repeat scroll 0 0 transparent;
 }
 .panel-toolbar a.link.agree:hover span {
-    background: url("../images/icons/icons_agree02.png") no-repeat scroll 0 0 transparent;
+    background: url("./icons_agree02.png") no-repeat scroll 0 0 transparent;
 }
 a.link.notAgree,.panel-toolbar a.link.notAgree span {
     background: url("../images/button/refuse.gif") no-repeat scroll 0 0 transparent;
@@ -1060,28 +1060,28 @@ a.link.abandon,.panel-toolbar a.link.abandon span {
     background: url("../images/button/giveup.gif") no-repeat scroll 0 0 transparent;
 }
 a.link.addWebSigns,.panel-toolbar a.link.addWebSigns span{
-	background:url(../images/icons/icons_WebSigns.png) 0px 0px no-repeat;
+	background:url(./icons_WebSigns.png) 0px 0px no-repeat;
 }
 .panel-toolbar a.link.addWebSigns:hover span{
-	background:url(../images/icons/icons_WebSigns02.png) 0px 0px no-repeat;
+	background:url(./icons_WebSigns02.png) 0px 0px no-repeat;
 }
 a.link.addHangSigns,.panel-toolbar a.link.addHangSigns span{
-	background:url(../images/icons/icons_HangSigns.png) 0px 0px no-repeat;
+	background:url(./icons_HangSigns.png) 0px 0px no-repeat;
 }
 .panel-toolbar a.link.addHangSigns:hover span{
-	background:url(../images/icons/icons_HangSigns02.png) 0px 0px no-repeat;
+	background:url(./icons_HangSigns02.png) 0px 0px no-repeat;
 }
 a.link.history,.panel-toolbar a.link.history span {
-    background: url("../images/icons/icons_history02.png") no-repeat scroll 0 1px transparent;
+    background: url("./icons_history02.png") no-repeat scroll 0 1px transparent;
 }
 .panel-toolbar a.link.history:hover span {
-    background: url("../images/icons/icons_history02.png") no-repeat scroll 0 1px transparent;
+    background: url("./icons_history02.png") no-repeat scroll 0 1px transparent;
 }
 a.link.log,.panel-toolbar a.link.log span {
-    background: url("../images/icons/icons_log.png") no-repeat scroll 0 1px transparent;
+    background: url("./icons_log.png") no-repeat scroll 0 1px transparent;
 }
 .panel-toolbar a.link.log:hover span {
-    background: url("../images/icons/icons_log02.png") no-repeat scroll 0 1px transparent;
+    background: url("./icons_log02.png") no-repeat scroll 0 1px transparent;
 }
 a.link.table,.panel-toolbar a.link.table span {
     background: url("../images/menu/table.gif") no-repeat scroll 0 1px transparent;
@@ -1118,19 +1118,19 @@ a.link.backed span{
 background: url("../images/error/error_back.png") no-repeat scroll 0 1px transparent;
 }
 a.link.category,.panel-toolbar a.link.category span{
-	background:url(../images/icons/icons_category.png) 0px 1px no-repeat;
+	background:url(./icons_category.png) 0px 1px no-repeat;
 }
 .panel-toolbar a.link.category:hover span{
-	background:url(../images/icons/icons_category02.png) 0px 1px no-repeat;
+	background:url(./icons_category02.png) 0px 1px no-repeat;
 }
 a.link.copyTo,.panel-toolbar a.link.copyTo span{
-	background:url(../images/icons/icons_devHelp02.png) 0px 1px no-repeat;
+	background:url(./icons_devHelp02.png) 0px 1px no-repeat;
 }
 .panel-toolbar a.link.copyTo:hover span{
-	background:url(../images/icons/icons_devHelp02.png) 0px 1px no-repeat;
+	background:url(./icons_devHelp02.png) 0px 1px no-repeat;
 }
 .link.copyTo {
-	background: url(../images/icons/devHelp.png) 0px 1px no-repeat;
+	background: url(./devHelp.png) 0px 1px no-repeat;
 }
 
 .link-sortUp {
@@ -1226,22 +1226,22 @@ a.button:hover span.icon{
 	
 */
 a.button span.icon.save{
-	background: url(../images/icons/icons_save.png) no-repeat -2px -2px;
+	background: url(./icons_save.png) no-repeat -2px -2px;
 }
 
 a.button span.icon.ok{
-	background: url(../images/icons/icons_ok.png) no-repeat 0px 3px;
+	background: url(./icons_ok.png) no-repeat 0px 3px;
 }
 
 a.button span.icon.upload{
-	background: url(../images/icons/icons_upload.png) no-repeat 0px center;
+	background: url(./icons_upload.png) no-repeat 0px center;
 }
 
 a.button span.icon.clean{
-	background: url(../images/icons/icons_clean.png) no-repeat 0px 3px;
+	background: url(./icons_clean.png) no-repeat 0px 3px;
 }
 a.button span.icon.cancel{
-	background: url(../images/icons/icons_cancel.png) no-repeat 0px 3px;
+	background: url(./icons_cancel.png) no-repeat 0px 3px;
 }
 
 a.button span.icon.valid{
@@ -1301,7 +1301,7 @@ a.tipinfo:hover span{
 }
 /* link search icon widthout event bind */
 a.link.search2{
-	background:url(../images/icons/icons_search.png) 0px 1px no-repeat;
+	background:url(./icons_search.png) 0px 1px no-repeat;
 }
 
 
@@ -1409,21 +1409,21 @@ div.desktop{
 .panel-search .searchbutton .btn:hover{background:#55a8fd;}
 .panel-search .searchbutton .search.btn:before{
 	content: "";
-	background:url("../images/icons/icons_search03.png") no-repeat;
+	background:url("./icons_search03.png") no-repeat;
 	width:12px;height: 12px;background-size:12px 12px;
 	position:absolute;
 	left:10px;top:50%; margin-top: -5px;
 }
 .panel-search .searchbutton .reset.btn:before{
 	content: "";
-	background:url("../images/icons/icons_reset.png") no-repeat;
+	background:url("./icons_reset.png") no-repeat;
 	width:12px;height: 12px;background-size:12px 12px;
 	position:absolute;
 	left:10px;top:50%; margin-top: -5px;
 }
 .panel-search .searchbutton .cancel.btn:before{
 	content: "";
-	background:url("../images/icons/icons_cancel03.png") no-repeat;
+	background:url("./icons_cancel03.png") no-repeat;
 	width:12px;height: 12px;background-size:12px 12px;
 	position:absolute;
 	left:10px;top:50%; margin-top: -5px;
@@ -1500,7 +1500,7 @@ a.tipinfo:hover span{
 	display:inline;
 }
 .reference{
-	background: url("../images/icons/icons_search.png") no-repeat scroll 0 1px transparent;
+	background: url("./icons_search.png") no-repeat scroll 0 1px transparent;
 }
 .formFoldBox {
 	vertical-align: top;
@@ -1564,7 +1564,7 @@ span.backgrounddiv{
 }
 
 a.link.mobile{
-	background:url(../images/icons/mobile.gif) 0px 0px no-repeat;
+	background:url(./mobile.gif) 0px 0px no-repeat;
 }
 
 
@@ -1699,3 +1699,148 @@ a.download{
 		z-index: 10;
 	}
 }
+
+.panel-toolbar{
+    color: #000;
+    font-family: "微软雅黑", "宋体", Arial, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    margin: 0;
+    margin-top: 2px;
+    background: #fff;
+    padding: 15px 15px 15px 10px;
+    height: 60px;
+}
+
+.panel-detail{
+    color: #000;
+    font-family: "微软雅黑", "宋体", Arial, sans-serif;
+    font-size: 12px;
+    padding: 0;
+    margin: 92px 15px 10px;
+    margin: 0;
+
+}
+
+#topNavWrapper{
+    color: #000;
+    font-family: "微软雅黑", "宋体", Arial, sans-serif;
+    font-size: 12px;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    margin: 0px auto;
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+}
+/* -------------
+   * commom *
+* ------------- */
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;border:1px solid #ced7e0; border-radius:3px; line-height:20px;}
+del,ins{text-decoration:none;}
+select{height:26px;}
+a{color:#2e7ccb;}
+body{font-family: "微软雅黑", "宋体", Arial, sans-serif; font-size: 12px; }
+.l-clear{ clear:both; width:1px; height:1px; overflow:hidden;}
+.l-hidden {display: none;}
+.l-loading
+{
+    position: absolute;z-index: 91000;  top:40%; left:50%; overflow:hidden;
+    background:url('../images/common/loading.gif') no-repeat 0px 0px;width:24px; height:24px; 
+     display:none;
+}
+/* -------------
+   * 滚动条颜色 *
+* ------------- */ 
+.l-scroll
+{
+        scrollbar-face-color:#C6D7FF; scrollbar-3dlight-color:#B5CBF7; scrollbar-darkshadow-color:#B5CBF7;
+        scrollbar-base-color:#B5CBF7;
+        scrollbar-shadow-color: #FFF; scrollbar-highlight-color: #FFF;  scrollbar-track-color:#FFF; scrollbar-arrow-color:#4A6184;
+}
+.l-noscroll
+{
+    overflow:hidden;
+}
+/* Draggable */
+.l-draggable{ overflow:hidden; border-style:solid; border-width:1px; opacity:0.5; filter:alpha(opacity=50); position:absolute; top:0; left:0; z-index:10001; background:#f2f1f1; border-color:#aaa;}
+/* Resizable */
+.l-resizable { display:none; overflow:hidden; border-style:dashed; border-width:1px; opacity:0.5; filter:alpha(opacity=50); position:absolute; top:0; left:0; z-index:10002; background:#f2f1f1;} 
+
+
+ /* --------------
+   *   icon  *
+* ------------ */
+.l-icon-checkbox {background:url('../images/icon/checkbox.gif') no-repeat center;}
+
+.l-icon-cross{background:url('../images/icon/cross.gif') no-repeat center; width:16px; height:16px; line-height:16px;}
+/* -------------
+   * 按钮 *
+* ------------- */
+.l-button
+{
+    display:block;border: solid 1px #A3C0E8;
+    width:50px ; height:20px; overflow:hidden; line-height:20px;
+    background: #E0EDFF url(../images/controls/button-bg.gif) repeat-x center;
+     text-align:center;color: #2C4D79;  text-decoration:none; cursor:pointer;
+}
+.l-button-over,.l-button:hover
+{background: #FFBE76 url(../images/controls/button-bg-over.gif) repeat-x center; border-color:#D6A886;
+}
+.l-btn
+{
+    display:block; 
+     height:21px; overflow:hidden; line-height:22px; position:relative; 
+     padding-left:15px; padding-right:15px; cursor:pointer;
+    background: #E0EDFF url(../images/controls/btn.gif) repeat-x;
+     text-align:center;color: #2C4D79;  text-decoration:none; cursor:pointer;
+}
+/* 按钮左边部位 */
+.l-btn-l
+{
+    position:absolute; width:3px; left:0px; top:0px;height:21px;
+    background: #E0EDFF url(../images/controls/btn-l.gif) no-repeat;
+}
+/* 按钮右边部位 */
+.l-btn-r
+{position:absolute; width:3px; right:0px; top:0px;height:21px;
+    background: #E0EDFF url(../images/controls/btn-r.gif) no-repeat;
+}
+
+
+
+/*
+    Draggable
+*/
+.l-drag-proxy { border: 1px solid #BDD1EE;position: absolute;z-index: 1001;height:25px; line-height:25px; padding-left:19px; padding-right:4px; background:white;  }
+.l-drag-proxy .l-drop-icon{position: absolute; top:5px; left:4px;width:16px; height:16px; }
+.l-drop-no{background: white url('../images/common/drop-icons.gif') no-repeat 0px -20px; width:16px; height:16px; overflow:hidden;}
+.l-drop-yes{background: white url('../images/common/drop-icons.gif') no-repeat 0px 0px;  width:16px; height:16px; overflow:hidden;}
+.l-drop-add{background: white url('../images/common/drop-icons.gif') no-repeat -20px 0px;  width:16px; height:16px; overflow:hidden;}
+.l-drag-coldroptip{width:9px; position:absolute; height:44px; z-index:1000;}
+.l-drop-move-up{background:transparent url('../images/common/drop-icons.gif') no-repeat -40px 0px; width:9px; height:9px; overflow:hidden;position:absolute; top:0px;}
+.l-drop-move-down{background: transparent url('../images/common/drop-icons.gif') no-repeat -60px 0px; width:9px; height:9px; overflow:hidden; position:absolute; bottom:0px;}
+ 
+ .l-drag-nodedroptip,.l-drag-rowdroptip{width:9px; position:absolute; height:1px; background-color:red; z-index:1000; line-height:1px; overflow:hidden;}
+ 
+ 
+ 
+ /* filter */ 
+table.l-filter-group{ background:white; font-size:12px;}
+table.l-filter-group select,table.l-filter-group .valtxt{border:1px solid #d3d3d3;}
+table.l-filter-group .addgroup{}
+table.l-filter-group .addrule{}
+table.l-filter-group .deletegroup{} 
+table.l-filter-group .deleterole{ cursor:pointer;} 
+table.l-filter-group-alt{ background:#F2F2F2;} 
+td.l-filter-groupcell{ padding-left:20px;} 
+td.l-filter-column{ padding:2px;}
+td.l-filter-op{padding:2px;}
+td.l-filter-value{padding:2px;} 
+tr.l-filter-rowlastcell{ text-align:right;_width:300px; min-width:300px;padding:2px;}  
+table.l-filter-group-alt,.l-panel table.l-filter-group-alt{background:#f5f5f5;margin-left:20px; margin-top:4px; padding:5px;border:1px solid #d3d3d3;} 
+table.l-filter-group-alt .l-filter-value{ padding-right:6px;} 
+td.l-filter-cellgroup{ padding:3px;}
+table.l-filter-group-alt table.l-filter-group{background:white;margin-left:20px; margin-top:4px; padding:5px;border:1px solid #d3d3d3;} 
+
