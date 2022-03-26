@@ -5,8 +5,10 @@
     <script>
       document.title = "By Xaka";
       function copy() {
-        document.getElementById("tip").style.visibility = "visible";
-        navigator.clipboard.writeText(document.getElementById("result").innerText);
+        
+        navigator.clipboard.writeText(document.getElementById("result").innerText).then(()=>{
+            document.getElementById("tip").style.visibility = "visible";
+        });
       }
       function hack() {
         let name = document.getElementById("name").value;
