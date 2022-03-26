@@ -4,10 +4,9 @@
 
     <script>
       document.title = "By Xaka";
-      let resultURI = "";
       function copy() {
         document.getElementById("tip").style.visibility = "visible";
-        navigator.clipboard.writeText(resultURI);
+        navigator.clipboard.writeText(document.getElementById("result").innerText);
       }
       function hack() {
         let name = document.getElementById("name").value;
@@ -19,7 +18,7 @@
         let attachement = document.querySelector(
           'input[name="attachment"]:checked'
         ).value;
-        resultURI = encodeURI(
+        let resultURI = encodeURI(
           "https://fakelicense.xaka.io/?" +
             "name=" +
             name +
