@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <script>
+      function hack() {
+        let name = document.getElementById("name").value;
+        let stuid = document.getElementById("stuid").value;
+        let phone = document.getElementById("phone").value;
+        let type = document.getElementById("type").value;
+        let reason = document.getElementById("reason").value;
+        let endDate = document.getElementById("endDate").value;
+        let attachement = document.querySelector(
+          'input[name="attachment"]:checked'
+        ).value;
+        let resultURI = encodeURI(
+          "https://fakelicense.xaka.io?" +
+            "name=" +
+            name +
+            "&stuid=" +
+            stuid +
+            "&phone=" +
+            phone +
+            "&type=" +
+            type +
+            "&reason=" +
+            reason +
+            "&endDate=" +
+            endDate +
+            "&attachment=" +
+            attachement
+        );
+        document.getElementById("result").innerText = resultURI;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Private Protocol Generator</h1>
+    <form>
+      <label for="name">姓名:</label><br />
+      <input type="text" id="name" name="name" /><br />
+      <label for="stuid">学号:</label><br />
+      <input type="text" id="stuid" name="stuid" /><br />
+      <label for="phone">手机号:</label><br />
+      <input type="text" id="phone" name="phone" /><br />
+      <label for="type">外出类型:</label><br />
+      <input type="text" id="type" name="type" /><br />
+      <label for="reason">事由:</label><br />
+      <input type="text" id="reason" name="reason" /><br />
+      <label for="endDate">结束日期:</label><br />
+      <input type="text" id="endDate" name="endDate" /><br />
+      <label for="attachement">是否有附件:</label><br />
+      <input type="radio" value="0" name="attachment" />有
+      <input type="radio" value="1" name="attachment" checked />无<br />
+    </form>
+    <button onclick="hack()">生成</button><br />
+    <h2>生成的URI</h2>
+    <a id="result"></a>
+  </body>
+</html>
