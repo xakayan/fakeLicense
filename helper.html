@@ -6,6 +6,7 @@
       document.title = "By Xaka";
       let resultURI = "";
       function copy() {
+        document.getElementById("tip").style.visibility = "visible";
         navigator.clipboard.writeText(resultURI);
       }
       function hack() {
@@ -64,7 +65,7 @@
     <br />
     <button style="visibility: hidden" onclick="copy()" id="copy">
       复制到剪切板</button
-    ><br />
+    ><strong id="tip" style="visibility: hidden;">复制成功!</strong><br />
     <a id="result"></a>
   </body>
 </html>
