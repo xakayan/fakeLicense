@@ -14,17 +14,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
 <meta name="Referrer" content="always">
 <link rel="stylesheet" type="text/css" href="./all-in-one-test-2.css">
-<script>
-    const params = new URLSearchParams(document.location.search);
-    const name = params.get("name");
-    const stuid = params.get("stuid");
-    const phone = params.get("phone");
-    document.getElementById("name").innerHTML=name;
-    document.getElementById("name-2").innerHTML=name;
-    document.getElementById("stuid").innerHTML=stuid;
-    document.getElementById("phone").innerHTML=phone;
 
-</script>
 
 
 	<title></title>
@@ -301,5 +291,18 @@
 		
 	
 </tbody></table>
+<script>
+    const params = new URLSearchParams(document.location.search);
+    const name = params.get("name");
+    const stuid = params.get("stuid");
+    const phone = params.get("phone");
+    console.log(name)
+    console.log(document.getElementById("name"))
+    document.getElementById("name").innerHTML=name;
 
+    document.getElementById("name-2").innerHTML=name;
+    document.getElementById("stuid").innerHTML=stuid;
+    document.getElementById("phone").innerHTML=phone;
+
+</script>
 </body></html>
