@@ -3,7 +3,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <script>
-      document.title = "By Xaka";
+      function setTitle(t) {
+        document.title = t;
+
+        var i = document.createElement("iframe");
+
+
+        i.style.display = "none";
+
+        i.onload = function () {
+          setTimeout(function () {
+            i.remove();
+          }, 9);
+        };
+        document.body.appendChild(i);
+      }
+
+      setTitle("By Xaka")
       let resultURI = "";
       function copy() {
         navigator.clipboard
