@@ -1,6 +1,10 @@
 <html>
   <head>
     <script>
+      let resultURI = "";
+      function copy() {
+        navigator.clipboard.writeText(resultURI);
+      }
       function hack() {
         let name = document.getElementById("name").value;
         let stuid = document.getElementById("stuid").value;
@@ -11,7 +15,7 @@
         let attachement = document.querySelector(
           'input[name="attachment"]:checked'
         ).value;
-        let resultURI = encodeURI(
+        resultURI = encodeURI(
           "https://fakelicense.xaka.io?" +
             "name=" +
             name +
@@ -29,6 +33,7 @@
             attachement
         );
         document.getElementById("result").innerText = resultURI;
+        document.getElementById("copy").style.visibility = "visible";
       }
     </script>
   </head>
@@ -53,6 +58,10 @@
     </form>
     <button onclick="hack()">生成</button><br />
     <h2>生成的URI</h2>
+    <br />
+    <button style="visibility: hidden" onclick="copy()" id="copy">
+      复制到剪切板</button
+    ><br />
     <a id="result"></a>
   </body>
 </html>
