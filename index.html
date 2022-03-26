@@ -14,7 +14,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
 <meta name="Referrer" content="always">
 <link rel="stylesheet" type="text/css" href="./all-in-one-test-2.css">
+<script>
+    const params = new URLSearchParams(document.location.search);
+    const name = params.get("name");
+    const stuid = params.get("stuid");
+    const phone = params.get("phone");
+    document.getElementById("name").innerHTML=name;
+    document.getElementById("name-2").innerHTML=name;
+    document.getElementById("stuid").innerHTML=stuid;
+    document.getElementById("phone").innerHTML=phone;
 
+</script>
 
 
 	<title></title>
@@ -25,7 +35,7 @@
 	      <div class="hide-panel noprint">
 	       	<div class="panel-top">
 				<div class="tbar-title">
-					<span class="tbar-label">流程明细--出入校园申请-严致成-2022-02-19 19:17:31</span>
+					<span class="tbar-label">流程明细--出入校园申请-潘力硕-2022-02-19 19:17:31</span>
 					<input id="businessKey" type="hidden" value="2000000003175767" disabled="disabled">
 					<input id="pkField" type="hidden" value="2000000003175766" disabled="disabled">
 				</div>
@@ -112,15 +122,15 @@
     </tr>
     <tr>
      <td align="right" class="formTitle" nowrap="nowarp" style="width: 20%;">学号:</td>
-     <td class="formInput" style="width: 80%;" data-title="学号"><span name="m:crxysq:xh">19110314065</span></td>
+     <td class="formInput" style="width: 80%;" data-title="学号"><span name="m:crxysq:xh" id="stuid">19110314065</span></td>
     </tr>
     <tr>
      <td align="right" class="formTitle" nowrap="nowarp" style="width: 20%;">姓名:</td>
-     <td class="formInput" style="width: 80%;" data-title="姓名"><span name="m:crxysq:xm">潘力硕</span></td>
+     <td class="formInput" style="width: 80%;" data-title="姓名"><span name="m:crxysq:xm" id="name">潘力硕</span></td>
     </tr>
     <tr>
      <td align="right" class="formTitle" nowrap="nowarp" style="width: 20%;">电话:</td>
-     <td class="formInput" style="width: 80%;" data-title="电话"><span name="m:crxysq:dh">13705871033</span></td>
+     <td class="formInput" style="width: 80%;" data-title="电话"><span name="m:crxysq:dh" id="phone">13705871033</span></td>
     </tr>
     <tr>
      <td align="right" class="formTitle" nowrap="nowarp" style="width: 20%;">学院:</td>
@@ -209,7 +219,7 @@
 		              			0分钟
 		              		
 				</td>
-				<td>
+				<td id="name-2">
 					
 						
                                 潘力硕
