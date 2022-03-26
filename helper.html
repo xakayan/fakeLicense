@@ -6,13 +6,7 @@
       document.title = "By Xaka";
       let resultURI = "";
       function copy() {
-        navigator.clipboard
-          .writeText(resultURI)
-          .then(() =>
-            alert(
-              "复制成功！请粘贴到微信的「文件传输助手」或其他地方后打开！\nEnjoy :D"
-            )
-          );
+        navigator.clipboard.writeText(resultURI);
       }
       function hack() {
         let name = document.getElementById("name").value;
