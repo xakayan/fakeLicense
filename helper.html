@@ -5,7 +5,9 @@
     <script>
       document.title = "By Xaka";
       function copy() {
-        navigator.clipboard.writeText(document.getElementById("result").innerText);
+        navigator.clipboard.writeText(
+          document.getElementById("result").innerText
+        );
       }
       function hack() {
         let name = document.getElementById("name").value;
@@ -40,7 +42,9 @@
     </script>
   </head>
   <body>
-    <h1>Private Protocol Generator(微信内无法一键复制到剪切板，请在浏览器中打开本网页)</h1>
+    <h1>Private Licence Generator 4 WZBC [Version 1.0.3 PUBLIC]</h1>
+    <h2>(微信内无法一键复制到剪切板，请在浏览器中打开本网页)</h2>
+    <h2>"The quieter you become, the more you can hear." -- Ram Dass</h2>
     <form>
       <label for="name">姓名:</label><br />
       <input type="text" id="name" name="name" /><br />
@@ -52,18 +56,19 @@
       <input type="text" id="type" name="type" /><br />
       <label for="reason">事由:</label><br />
       <input type="text" id="reason" name="reason" /><br />
-      <label for="endDate">结束日期:</label><br />
-      <input type="text" id="endDate" name="endDate" /><br />
+      <label for="endDate">结束日期(请严格按照 yyyy-MM-dd的格式来填写):</label
+      ><br />
+      <input type="text" id="endDate" name="endDate" value="2022-04-20" /><br />
       <label for="attachement">是否有附件:</label><br />
       <input type="radio" value="0" name="attachment" />有
       <input type="radio" value="1" name="attachment" checked />无<br />
     </form>
     <button onclick="hack()">生成</button><br />
-    <h2>生成的URI</h2>
+    <h2>USE WITH CAUTION</h2>
     <br />
     <button style="visibility: hidden" onclick="copy()" id="copy">
-      复制到剪切板</button
-    ><strong id="tip" style="visibility: hidden;">复制成功!</strong><br />
+      复制到剪切板
+    </button>
     <a id="result"></a>
   </body>
 </html>
