@@ -15,7 +15,9 @@
 <meta name="Referrer" content="always">
 <link rel="stylesheet" type="text/css" href="./all-in-one.css">
 
-
+<script>
+    document.title = "http://its-bpmx.wzbc.edu.cn:8080/bpmx/";
+</script>
 
 	<title>http://its-bpmx.wzbc.edu.cn:8080/bpmx/</title>
 	
@@ -353,9 +355,9 @@
     }
 
     if(attachment==1){
-        document.getElementById("attachment-form").remove()
-    }else{
         document.getElementById("attachment").innerText="Screenshot_"+applyDate+"-15-06-12-212.jpg("+name+"_"+applyDate+")"
+    }else{
+        document.getElementById("attachment-form").remove()
     }
 
     
