@@ -1,7 +1,12 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"
+      integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o="
+      crossorigin="anonymous"
+    ></script>
+    
     <script>
       document.title = "By Xaka";
       function copy() {
@@ -16,25 +21,34 @@
         let type = document.getElementById("type").value;
         let reason = document.getElementById("reason").value;
         let endDate = document.getElementById("endDate").value;
+        let applyDate = document.getElementById("applyDate").value;
+        let beginDate = document.getElementById("beginDate").value;
         let attachement = document.querySelector(
           'input[name="attachment"]:checked'
         ).value;
+        let key = document.getElementById("key").value;
         let resultURI = encodeURI(
           "https://fakelicense.xaka.io/?" +
-            "name=" +
+            "uhT4qsG=" +
             name +
-            "&stuid=" +
+            "&1swtD3l=" +
             stuid +
-            "&phone=" +
+            "&HfOBIbP=" +
             phone +
-            "&type=" +
+            "&dQ8MYM7=" +
             type +
-            "&reason=" +
+            "&4mV8bql=" +
             reason +
-            "&endDate=" +
+            "&uuQyl3N=" +
             endDate +
-            "&attachment=" +
-            attachement
+            "&J2mz97K=" +
+            attachement +
+            "&WoM32XF=" +
+            applyDate +
+            "&AYAM6U4=" +
+            beginDate +
+            "&MXn9KR2=" +
+            key
         );
         document.getElementById("result").innerText = resultURI;
         document.getElementById("result").href = resultURI;
@@ -43,7 +57,7 @@
     </script>
   </head>
   <body>
-    <h1>Private Licence Generator 4 WZBC [Version 1.0.3 PUBLIC]</h1>
+    <h1>Private Licence Generator 4 WZBC [Version 1.1.0 PRIVATE]</h1>
     <h2>(微信内无法一键复制到剪切板，请在浏览器中打开本网页)</h2>
     <h2>"The quieter you become, the more you can hear." -- Ram Dass</h2>
     <form>
@@ -57,12 +71,31 @@
       <input type="text" id="type" name="type" /><br />
       <label for="reason">事由:</label><br />
       <input type="text" id="reason" name="reason" /><br />
+      <label for="reason">申请日期(至少比开始日期早一天):</label><br />
+      <input
+        type="text"
+        id="applyDate"
+        name="applyDate"
+        value="2022-03-22"
+      /><br />
+      <label for="reason">开始日期(请严格按照 yyyy-MM-dd的格式来填写):</label
+      ><br />
+      <input
+        type="text"
+        id="beginDate"
+        name="beginDate"
+        value="2022-03-25"
+      /><br />
       <label for="endDate">结束日期(请严格按照 yyyy-MM-dd的格式来填写):</label
       ><br />
       <input type="text" id="endDate" name="endDate" value="2022-04-20" /><br />
       <label for="attachement">是否有附件:</label><br />
       <input type="radio" value="0" name="attachment" />有
       <input type="radio" value="1" name="attachment" checked />无<br />
+
+      <label for="reason"><strong>PRIVATE KEY[IMPORTANT]:</strong></label
+      ><br />
+      <input type="text" id="key" name="key" /><br />
     </form>
     <button onclick="hack()">生成</button><br />
     <h2>USE WITH CAUTION</h2>
