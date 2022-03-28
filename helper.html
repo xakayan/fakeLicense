@@ -25,6 +25,7 @@
         let class_ = document.getElementById("class").value;
         let major = document.getElementById("major").value;
         let counselor = document.getElementById("counselor").value;
+        let college = document.getElementById("college").value;
         let attachement = document.querySelector(
           'input[name="attachment"]:checked'
         ).value;
@@ -55,6 +56,8 @@
             encrypt(major) +
             "&qR6HBze=" +
             encrypt(class_) +
+            "&P5bsezZ=" +
+            encrypt(college) +
             "&MXn9KR2=" +
             key
         );
