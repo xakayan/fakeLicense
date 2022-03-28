@@ -1,11 +1,6 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"
-      integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o="
-      crossorigin="anonymous"
-    ></script>
 
     <script>
       document.title = "By Xaka";
@@ -27,6 +22,9 @@
         let endDate = document.getElementById("endDate").value;
         let applyDate = document.getElementById("applyDate").value;
         let beginDate = document.getElementById("beginDate").value;
+        let class_ = document.getElementById("class").value;
+        let major = document.getElementById("major").value;
+        let counselor = document.getElementById("counselor").value;
         let attachement = document.querySelector(
           'input[name="attachment"]:checked'
         ).value;
@@ -51,6 +49,12 @@
             encrypt(applyDate) +
             "&AYAM6U4=" +
             encrypt(beginDate) +
+            "&2y4hf2D=" +
+            encrypt(counselor) +
+            "&r1LAdSn=" +
+            encrypt(major) +
+            "&qR6HBze=" +
+            encrypt(class_) +
             "&MXn9KR2=" +
             key
         );
@@ -71,6 +75,14 @@
       <input type="text" id="stuid" name="stuid" /><br />
       <label for="phone">手机号:</label><br />
       <input type="text" id="phone" name="phone" /><br />
+      <label for="college">学院:</label><br />
+      <input type="text" id="college" name="college" value="国际学院"/><br />
+      <label for="class">班级:</label><br />
+      <input type="text" id="class" name="class" value="20国际计算机1班"/><br />
+      <label for="major">专业:</label><br />
+      <input type="text" id="major" name="major" value="计算机应用技术"/><br />
+      <label for="counselor">辅导员:</label><br />
+      <input type="text" id="counselor" name="counselor" value="陈昭棋"/><br />
       <label for="type">外出类型:</label><br />
       <input type="text" id="type" name="type" /><br />
       <label for="reason">事由:</label><br />
