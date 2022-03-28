@@ -57,7 +57,7 @@ div.panel-body{
 }
 
 .date,.datetime,.datePicker,.wdateTime{
-	background: url(../images/datePicker.gif) no-repeat scroll right center #FFFFFF;
+	background: url(./datePicker.gif) no-repeat scroll right center #FFFFFF;
     border: 1px solid #999999;
     /*margin-left: 4px;
     height: 20px;*/
@@ -120,7 +120,7 @@ z0902*/
 }
 
 .tree-toolbar {
-	 background: url("../images/other/bg2.gif") repeat scroll 0  transparent;
+	 background: url("./other/bg2.gif") repeat scroll 0  transparent;
     border-bottom: medium none;
     border-top: medium none;
     height: 21px;
@@ -284,7 +284,7 @@ width: 250px;
 }/*z0902 background:#e6e6e6;color: #0167FF;*/
 .table-grid th.sortable{text-align: left;}
 div.header{
-    background: url("../images/other/bg.png") repeat scroll 0 -135px transparent;
+    background: url("./other/bg.png") repeat scroll 0 -135px transparent;
 	height: 30px;
 	line-height:30px;
 	width: 100%;
@@ -363,13 +363,13 @@ th.sortable a {
 }
 
 th.order1 a {
-	background-image: url(../images/displaytag/icon-sort-desc.gif);
+	background-image: url(./displaytag/icon-sort-desc.gif);
 	background-repeat: no-repeat;
 	background-position: 80% 50%;
 }
 
 th.order2 a {
-	background-image: url(../images/displaytag/icon-sort-asc.gif);
+	background-image: url(./displaytag/icon-sort-asc.gif);
 	background-repeat: no-repeat;
 	background-position: 80% 50%;
 }
@@ -402,7 +402,7 @@ th.order2 a {
 }
 
 .table-grid .over {
-	/*background: url(../images/content_bg_hover.jpg);*/
+	/*background: url(./content_bg_hover.jpg);*/
 	background: #dfeffc;
 }
 
@@ -439,27 +439,27 @@ th.order2 a {
 }
 
 .area-export .exportlinks .excel {
-	background-image: url(../images/displaytag/ico_file_excel.png);
+	background-image: url(./displaytag/ico_file_excel.png);
 	background-repeat: no-repeat;
 }
 
 .area-export .exportlinks .csv {
-	background-image: url(../images/displaytag/ico_file_csv.png);
+	background-image: url(./displaytag/ico_file_csv.png);
 	background-repeat: no-repeat;
 }
 
 .area-export .exportlinks .xml {
-	background-image: url(../images/displaytag/ico_file_xml.png);
+	background-image: url(./displaytag/ico_file_xml.png);
 	background-repeat: no-repeat;
 }
 
 .area-export .exportlinks .pdf {
-	background-image: url(../images/displaytag/ico_file_pdf.png);
+	background-image: url(./displaytag/ico_file_pdf.png);
 	background-repeat: no-repeat;
 }
 
 .area-export .exportlinks .rtf {
-	background-image: url(../images/displaytag/ico_file_rtf.png);
+	background-image: url(./displaytag/ico_file_rtf.png);
 	background-repeat: no-repeat;
 }
 .panel-norecord{
@@ -473,7 +473,7 @@ th.order2 a {
    background-color: #fff;
    height:30px;
    padding:10px 0;
-	/*background: url(../images/tool_bg.jpg) repeat-x; border: 3px solid #dddddd;*/
+	/*background: url(./tool_bg.jpg) repeat-x; border: 3px solid #dddddd;*/
 }
 .l-bar-group-right {
     float: left;
@@ -511,7 +511,7 @@ th.order2 a {
 
 
 label.error {
-	background: url(../images/valid/unchecked.gif) no-repeat 0px 0px;
+	background: url(./valid/unchecked.gif) no-repeat 0px 0px;
 	margin-left: 16px;
 	padding-left: 16px;
 	padding-bottom: 2px;
@@ -528,7 +528,7 @@ label.initerror {
 }
 
 label.checked {
-	background: url(../images/valid/checked.gif) no-repeat 0px 0px;
+	background: url(./valid/checked.gif) no-repeat 0px 0px;
 }
 
 
@@ -680,10 +680,10 @@ a.link.init,.panel-toolbar a.link.init span {
     background: url("./icons_init02.png") no-repeat scroll 0 center transparent;
 }
 a.link.show,.panel-toolbar a.link.show span {
-    background: url("../images/menu/show.gif") no-repeat scroll 0 center transparent;
+    background: url("./menu/show.gif") no-repeat scroll 0 center transparent;
 }
 a.link.no,.panel-toolbar  a.link.no span {
-    background: url("../images/menu/no.png") no-repeat scroll 0 center transparent;
+    background: url("./menu/no.png") no-repeat scroll 0 center transparent;
 }
 a.link.undo,.panel-toolbar a.link.undo span {
     background: url("./icons_reload.png") no-repeat scroll 0 center transparent;
@@ -698,7 +698,7 @@ a.link.redo,.panel-toolbar a.link.redo span {
     background: url("./icons_redo_02.png") no-repeat scroll 0 center transparent;
 }
 a.link.sended {
-    background: url("../images/error/error_btn_bg.png") repeat-x scroll 0 0 transparent;
+    background: url("./error/error_btn_bg.png") repeat-x scroll 0 0 transparent;
     border: 1px solid rgb(153, 153, 153);
 	border-radius: 3px 3px 3px 3px;
 	cursor: pointer;
@@ -714,16 +714,16 @@ a.link.update,.panel-toolbar a.link.update span {
     background: url("./icons_update02.png") no-repeat scroll 0 center transparent;
 }
 a.link.upload,.panel-toolbar a.link.upload span {
-    background: url("../images/menu/upload.png") no-repeat scroll 0 center transparent;
+    background: url("./menu/upload.png") no-repeat scroll 0 center transparent;
 }
 a.link.xml-bpm,.panel-toolbar a.link.xml-bpm span {
-    background: url("../images/menu/xml-bpm.png") no-repeat scroll 0 center transparent;
+    background: url("./menu/xml-bpm.png") no-repeat scroll 0 center transparent;
 }
 a.link.reload,.panel-toolbar a.link.reload span {
-    background: url("../images/icon/reload.png") no-repeat scroll 0 center transparent;
+    background: url("./icon/reload.png") no-repeat scroll 0 center transparent;
 }
 a.link.xml-design,.panel-toolbar a.link.xml-design span {
-    background: url("../images/menu/xml-design.png") no-repeat scroll 0 center transparent;
+    background: url("./menu/xml-design.png") no-repeat scroll 0 center transparent;
 }
 a.link.preview,.panel-toolbar a.link.preview span {
     background: url("./icons_preview.png") no-repeat scroll 0 center transparent;
@@ -732,22 +732,22 @@ a.link.preview,.panel-toolbar a.link.preview span {
     background: url("./icons_preview02.png") no-repeat scroll 0 center transparent;
 }
 a.link.expand,.panel-toolbar a.link.expand span {
-    background: url("../images/icon/expand.gif") no-repeat scroll 0 center transparent;
+    background: url("./icon/expand.gif") no-repeat scroll 0 center transparent;
 }
 a.link.collapse,.panel-toolbar a.link.collapse span {
-    background: url("../images/icon/collapse.gif") no-repeat scroll 0 center transparent;
+    background: url("./icon/collapse.gif") no-repeat scroll 0 center transparent;
 }
 a.link.moveup,.panel-toolbar a.link.moveup span {
-    background: url("../images/menu/moveup.png") no-repeat scroll 0 center transparent;
+    background: url("./menu/moveup.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.moveup:hover span {
-    background: url("../images/menu/moveup02.png") no-repeat scroll 0 center transparent;
+    background: url("./menu/moveup02.png") no-repeat scroll 0 center transparent;
 }
 a.link.movedown,.panel-toolbar a.link.movedown span {
-    background: url("../images/menu/movedown.png") no-repeat scroll 0 center transparent;
+    background: url("./menu/movedown.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.movedown:hover span {
-    background: url("../images/menu/movedown02.png") no-repeat scroll 0 center transparent;
+    background: url("./menu/movedown02.png") no-repeat scroll 0 center transparent;
 }
 a.link.next,.panel-toolbar a.link.next span {
     background: url("./next.gif") no-repeat scroll 0 center transparent;
@@ -850,7 +850,7 @@ a.link.reset,.panel-toolbar a.link.reset span{
 	background: url("./icons_reset02.png") no-repeat scroll 0 center transparent;
 }
 a.link.send{
-	background:url(../images/menu/add.gif) 0px -2px no-repeat;
+	background:url(./menu/add.gif) 0px -2px no-repeat;
 }
 a.link.end{
 	background:url(./run.png) 0px -2px no-repeat;
@@ -922,7 +922,7 @@ a.link.upload,.panel-toolbar a.link.upload span {
     background: url("./icons_upload02.png") no-repeat scroll 0 center transparent;
 }
 a.link.var,.panel-toolbar a.link.var span {
-    background: url("../images/bpm/code.gif") no-repeat scroll 0 0 transparent;
+    background: url("./bpm/code.gif") no-repeat scroll 0 0 transparent;
 }
 a.link.backUp,.panel-toolbar a.link.backUp span {
     background: url("./icons_backUp.png") no-repeat scroll 0 -2px transparent;
@@ -937,16 +937,16 @@ a.link.setting,.panel-toolbar a.link.setting span {
     background: url("./icons_setting02.png") no-repeat scroll 0 1px transparent;
 }
 a.link.grant,.panel-toolbar a.link.grant span {
-    background: url("../images/menu/grant.png") no-repeat scroll 0 0 transparent;
+    background: url("./menu/grant.png") no-repeat scroll 0 0 transparent;
 }
 .panel-toolbar a.link.grant:hover span {
-    background: url("../images/menu/grant02.png") no-repeat scroll 0 0 transparent;
+    background: url("./menu/grant02.png") no-repeat scroll 0 0 transparent;
 }
 a.link.grantSort,.panel-toolbar a.link.grantSort span {
-    background: url("../images/menu/grant.png") no-repeat scroll 0 0 transparent;
+    background: url("./menu/grant.png") no-repeat scroll 0 0 transparent;
 }
 a.link.deploy,.panel-toolbar a.link.deploy span {
-    background: url("../images/icon/deploy.gif") no-repeat scroll 0 -2px transparent;
+    background: url("./icon/deploy.gif") no-repeat scroll 0 -2px transparent;
 }
 a.link.auth,.panel-toolbar a.link.auth span {
     background: url("./icons_auth.png") no-repeat scroll 0 -2px transparent;
@@ -955,13 +955,13 @@ a.link.auth,.panel-toolbar a.link.auth span {
     background: url("./icons_auth02.png") no-repeat scroll 0 -2px transparent;
 }
 a.link.lock,.panel-toolbar a.link.lock span {
-    background: url("../images/menu/lock.png") no-repeat scroll 0 -2px transparent;
+    background: url("./menu/lock.png") no-repeat scroll 0 -2px transparent;
 }
 .panel-toolbar a.link.lock:hover span {
-    background: url("../images/menu/lock02.png") no-repeat scroll 0 -2px transparent;
+    background: url("./menu/lock02.png") no-repeat scroll 0 -2px transparent;
 }
 a.link.unlock,.panel-toolbar a.link.unlock span {
-    background: url("../images/menu/unlock.png") no-repeat scroll 0 0 transparent;
+    background: url("./menu/unlock.png") no-repeat scroll 0 0 transparent;
 }
 a.link.newVersion,.panel-toolbar a.link.newVersion span {
     background: url("./icons_newVersion.png") no-repeat scroll 0 center transparent;
@@ -976,7 +976,7 @@ a.link.cancel,.panel-toolbar a.link.cancel span {
     background: url("./icons_cancel02.png") no-repeat scroll 0 0 transparent;
 }
 .panel-toolbar a.link.selectFile span {
-    background: url("../images/icon/file.gif") no-repeat scroll 0 2px transparent;
+    background: url("./icon/file.gif") no-repeat scroll 0 2px transparent;
 }
 a.link.selectFile{
     background:url(./icons_file.png) 5px center no-repeat #5ae2c4;
@@ -994,10 +994,10 @@ a.link.print,.panel-toolbar a.link.print span {
     background: url("./icons_dataList02.png") no-repeat scroll 0 -2px transparent;
 }
 a.link.printSetting,.panel-toolbar  a.link.printSetting span {
-    background: url("../images/icon/printSetting.gif") no-repeat scroll 0 2px transparent;
+    background: url("./icon/printSetting.gif") no-repeat scroll 0 2px transparent;
 }
 a.link.printPreView,.panel-toolbar a.link.printPreView span {
-    background: url("../images/icon/printPreView.gif") no-repeat scroll 0 2px transparent;
+    background: url("./icon/printPreView.gif") no-repeat scroll 0 2px transparent;
 }
 a.link.sendMessage,.panel-toolbar a.link.sendMessage span {
     background: url("./icons_sendMessage02.png") no-repeat scroll 0 0px transparent;
@@ -1006,7 +1006,7 @@ a.link.sendMessage,.panel-toolbar a.link.sendMessage span {
     background: url("./icons_sendMessage02.png") no-repeat scroll 0 0px transparent;
 }
 a.link.addMessage,.panel-toolbar a.link.addMessage span {
-    background: url("../images/icon/addMessage.gif") no-repeat scroll 0 0px transparent;
+    background: url("./icon/addMessage.gif") no-repeat scroll 0 0px transparent;
 }
 a.link.parameter,.panel-toolbar a.link.parameter span {
     background: url("./parameter.png") no-repeat scroll 0 -2px transparent;
@@ -1027,13 +1027,13 @@ a.link.primary,.panel-toolbar a.link.primary span {
     background: url("./icons_primary02.png") no-repeat scroll 0 -2px transparent;
 }
 a.link.notPrimary,.panel-toolbar a.link.notPrimary span {
-    background: url("../images/icon/notPrimary.gif") no-repeat scroll 0 -2px transparent;
+    background: url("./icon/notPrimary.gif") no-repeat scroll 0 -2px transparent;
 }
 a.link.charge,.panel-toolbar a.link.charge span {
-    background: url("../images/icon/charge.gif") no-repeat scroll 0 -2px transparent;
+    background: url("./icon/charge.gif") no-repeat scroll 0 -2px transparent;
 }
 a.link.noCharge,.panel-toolbar a.link.noCharge span {
-    background: url("../images/icon/noCharge.gif") no-repeat scroll 0 -2px transparent;
+    background: url("./icon/noCharge.gif") no-repeat scroll 0 -2px transparent;
 }
 a.link.reject,.panel-toolbar a.link.reject span {
     background: url("./icons_reject02.png") no-repeat scroll 0 -2px transparent;
@@ -1084,15 +1084,15 @@ a.link.log,.panel-toolbar a.link.log span {
     background: url("./icons_log02.png") no-repeat scroll 0 1px transparent;
 }
 a.link.table,.panel-toolbar a.link.table span {
-    background: url("../images/menu/table.gif") no-repeat scroll 0 1px transparent;
+    background: url("./menu/table.gif") no-repeat scroll 0 1px transparent;
 }
 
 a.link.helped,.panel-toolbar a.link.helped span {
-    background: url("../images/icon/help.gif") no-repeat scroll 0 -2px transparent;
+    background: url("./icon/help.gif") no-repeat scroll 0 -2px transparent;
 }
 
 a.link.stop,.panel-toolbar a.link.stop span {
-    background: url("../images/icon/stop.png") no-repeat scroll 0 1px transparent;
+    background: url("./icon/stop.png") no-repeat scroll 0 1px transparent;
 }
 
 a.link.reloaded,a.link.backed{
@@ -1102,7 +1102,7 @@ a.link.reloaded,a.link.backed{
 	line-height: 23px;
 	padding: 0px 12px 3px 8px;
 	text-align: center;
-	background: url("../images/other/bg.png") repeat-x scroll 0px -170px transparent !important;
+	background: url("./other/bg.png") repeat-x scroll 0px -170px transparent !important;
 }
 a.link.reloaded span,a.link.backed span{
 	display: inline-block;
@@ -1112,10 +1112,10 @@ a.link.reloaded span,a.link.backed span{
 	margin-bottom: -7px;
 }
 a.link.reloaded span{
-background: url("../images/error/404_login.png") no-repeat scroll 0 1px transparent;
+background: url("./error/404_login.png") no-repeat scroll 0 1px transparent;
 }
 a.link.backed span{
-background: url("../images/error/error_back.png") no-repeat scroll 0 1px transparent;
+background: url("./error/error_back.png") no-repeat scroll 0 1px transparent;
 }
 a.link.category,.panel-toolbar a.link.category span{
 	background:url(./icons_category.png) 0px 1px no-repeat;
@@ -1134,29 +1134,29 @@ a.link.copyTo,.panel-toolbar a.link.copyTo span{
 }
 
 .link-sortUp {
-	background: url(../images/menu/arrow-up.png) no-repeat !important;
+	background: url(./menu/arrow-up.png) no-repeat !important;
 	text-decoration: none;
 }
 
 .link-sortDown {
-	background: url(../images/menu/arrow-down.png) no-repeat !important;
+	background: url(./menu/arrow-down.png) no-repeat !important;
 	text-decoration: none;
 }
 
 .link-sortTop {
-	background: url(../images/menu/sort_top.png) no-repeat !important;
+	background: url(./menu/sort_top.png) no-repeat !important;
 }
 
 .link-sortBottom {
-	background: url(../images/menu/sort_bottom.png) no-repeat !important;
+	background: url(./menu/sort_bottom.png) no-repeat !important;
 }
 
 a.link.help {
-	background: url(../images/icon/help.gif) no-repeat !important;
+	background: url(./icon/help.gif) no-repeat !important;
 }
 
 a.link.excel {
-	background-image: url(../images/displaytag/ico_file_excel.png);
+	background-image: url(./displaytag/ico_file_excel.png);
 	background-repeat: no-repeat;
 }
 /*==================end of link button===============================*/
@@ -1171,7 +1171,7 @@ a.button:link { text-decoration: none;}
 a.button {	
 	color:#000;  
 	font-size: 12px;
-	background: url("../images/other/bg.png") repeat-x scroll 0 -170px transparent !important;
+	background: url("./other/bg.png") repeat-x scroll 0 -170px transparent !important;
 	border: 1px solid #999999;
 	border-radius: 3px 3px 3px 3px;
 	cursor: pointer;
@@ -1245,7 +1245,7 @@ a.button span.icon.cancel{
 }
 
 a.button span.icon.valid{
-	background: url(../images/icon/valid.gif) no-repeat 0px 3px;
+	background: url(./icon/valid.gif) no-repeat 0px 3px;
 }
 
 
@@ -1254,7 +1254,7 @@ a.button span.icon.valid{
 	
 */
 a.tipinfo{
-	background:url(../images/icon/help.gif) 0px -2px no-repeat;
+	background:url(./icon/help.gif) 0px -2px no-repeat;
 	padding-left: 20px;
 	line-height: 20px;
 	text-decoration: none;
@@ -1322,7 +1322,7 @@ div.desktop{
  .panel-top-left {float: left;font-size: 14px;font-weight: bold;}
  .panel-top-right {float: right; margin-right: 10px;}
 .panel-top h2 { display: inline-block;float: left; font-size: 14px;height: 23px;  padding-left: 24px;}
-.panel-top h2.setting {background: url("../images/other/icon_settings_20.png") no-repeat scroll left center transparent;}
+.panel-top h2.setting {background: url("./other/icon_settings_20.png") no-repeat scroll left center transparent;}
 .panel-top .inline {  float: left;}
 .table-top {height: 14px;margin-top: 15px;}
 .table-top .table-top-left {color: #1673FF; float: left; font-size: 14px; font-weight: bold;}
@@ -1340,21 +1340,21 @@ div.desktop{
 .panel-container .l-tab-links .l-selected a { background: none repeat scroll 0 0 #FFFFFF; border-radius: 4px 4px 4px 4px;color: #488DF5; cursor: pointer;outline: 0 none;padding: 10px 10px 5px;}
 .panel-container table th { color: #000000;}
 .panel-container table a.moveup, .panel-container table a.movedown {display: inline;height: 20px;margin: 8px;padding-bottom: 14px; width: 20px;}
-.panel-container table a.moveup { background: url("../images/other/icon_upside.png") no-repeat scroll 0 5px transparent;}
-.panel-container table a.movedown {background: url("../images/other/icon_downside.png") no-repeat scroll 0 5px transparent;}
+.panel-container table a.moveup { background: url("./other/icon_upside.png") no-repeat scroll 0 5px transparent;}
+.panel-container table a.movedown {background: url("./other/icon_downside.png") no-repeat scroll 0 5px transparent;}
 .panel-container table a.moveup:hover, .panel-container table a.movedown:hover {background-position: 0 0;}
 
 .foldBox { border-top: 2px solid #488DF5;clear: both; display: inline-block;margin: 10px 5px 5px; position: relative; width: 99%;}
 .foldBox a.drop {cursor: pointer;text-decoration: none;}
 .foldBox .title {  background: none repeat scroll 0 0 #FFFFFF;color: #1673FF;font-size: 14px; font-weight: bold; left: 12px;padding-left: 10px;padding-right: 15px;position: absolute; top: -15px;}
 .foldBox .drop {background: none repeat scroll 0 0 #FFFFFF;color: #488DF5;font-weight: bold;padding: 0 10px;position: absolute;right: 12px;top: -12px;}
-.foldBox .drop span { background: url("../images/other/1.png") no-repeat scroll 0 -35px transparent;display: inline-block;height: 6px;width: 12px;}
+.foldBox .drop span { background: url("./other/1.png") no-repeat scroll 0 -35px transparent;display: inline-block;height: 6px;width: 12px;}
 .foldBox .content { margin: 12px 8px; padding: 10px;}
 .panel-search .title { 
 	color: #037ad5; font-size: 12px;
 	padding: 10px 15px 10px 32px;
 	position:absolute; left:0px; top:0px;
-	background:url("../images/other/search_title.png") no-repeat scroll 15px center #edf7ff;
+	background:url("./other/search_title.png") no-repeat scroll 15px center #edf7ff;
 	width:100%;  z-index:510;
 	box-sizing:border-box;
 	-wekit-box-sizing:border-box;
@@ -1440,12 +1440,12 @@ div.desktop{
 .table-noborder th { border: medium none;font-size: 14px;font-weight: bold;padding: 5px 10px;}
 
 span.open-message{
-	background: url(../images/msg_none.png) no-repeat 0px -1px;
+	background: url(./msg_none.png) no-repeat 0px -1px;
 	padding:2px 0 2px 20px;
 }
 
 span.close-message{
-	background: url(../images/msg_own.png) no-repeat 0px -1px;
+	background: url(./msg_own.png) no-repeat 0px -1px;
 	padding:2px 0 2px 20px;
 }
 a.message{
@@ -1456,11 +1456,11 @@ a.message{
 	height:20px;
 }
 a.message.open-message{
-	background: url(../images/msg_none.png) no-repeat 0px -1px;
+	background: url(./msg_none.png) no-repeat 0px -1px;
 }
 
 a.message.close-message{
-	background: url(../images/msg_own.png) no-repeat 0px -1px;
+	background: url(./msg_own.png) no-repeat 0px -1px;
 }
 
 .quick-find{
@@ -1468,7 +1468,7 @@ a.message.close-message{
 }
 
 div.tipbox{
-	background:url(../images/icon/help.gif) 0 0 no-repeat;
+	background:url(./icon/help.gif) 0 0 no-repeat;
 	width:20px;
 	height:20px;
 	display:inline;
@@ -1569,11 +1569,11 @@ a.link.mobile{
 
 
 a.link.movetop {
-	background: url(../images/menu/sort_top.png) no-repeat !important;
+	background: url(./menu/sort_top.png) no-repeat !important;
 }
 
 a.link.movebottom {
-	background: url(../images/menu/sort_bottom.png) no-repeat !important;
+	background: url(./menu/sort_bottom.png) no-repeat !important;
 }
 
 /*瑙ｅ喅鍦ㄧ伀鐙愪笅 ligerdialog寮瑰嚭妗嗘樉绀轰笉鍏ㄧ殑闂*/
@@ -1676,7 +1676,7 @@ div[formtype='window'] {
 }
 
 a.download{
-   	background:url(../images/arrow.png) 0 1px no-repeat;
+   	background:url(./arrow.png) 0 1px no-repeat;
    	display:inline-block;
    	height:14px;
    	margin-left:8px;
@@ -1747,7 +1747,7 @@ body{font-family: "微软雅黑", "宋体", Arial, sans-serif; font-size: 12px; 
 .l-loading
 {
     position: absolute;z-index: 91000;  top:40%; left:50%; overflow:hidden;
-    background:url('../images/common/loading.gif') no-repeat 0px 0px;width:24px; height:24px; 
+    background:url('./common/loading.gif') no-repeat 0px 0px;width:24px; height:24px; 
      display:none;
 }
 /* -------------
@@ -1772,9 +1772,9 @@ body{font-family: "微软雅黑", "宋体", Arial, sans-serif; font-size: 12px; 
  /* --------------
    *   icon  *
 * ------------ */
-.l-icon-checkbox {background:url('../images/icon/checkbox.gif') no-repeat center;}
+.l-icon-checkbox {background:url('./icon/checkbox.gif') no-repeat center;}
 
-.l-icon-cross{background:url('../images/icon/cross.gif') no-repeat center; width:16px; height:16px; line-height:16px;}
+.l-icon-cross{background:url('./icon/cross.gif') no-repeat center; width:16px; height:16px; line-height:16px;}
 /* -------------
    * 按钮 *
 * ------------- */
@@ -1782,30 +1782,30 @@ body{font-family: "微软雅黑", "宋体", Arial, sans-serif; font-size: 12px; 
 {
     display:block;border: solid 1px #A3C0E8;
     width:50px ; height:20px; overflow:hidden; line-height:20px;
-    background: #E0EDFF url(../images/controls/button-bg.gif) repeat-x center;
+    background: #E0EDFF url(./controls/button-bg.gif) repeat-x center;
      text-align:center;color: #2C4D79;  text-decoration:none; cursor:pointer;
 }
 .l-button-over,.l-button:hover
-{background: #FFBE76 url(../images/controls/button-bg-over.gif) repeat-x center; border-color:#D6A886;
+{background: #FFBE76 url(./controls/button-bg-over.gif) repeat-x center; border-color:#D6A886;
 }
 .l-btn
 {
     display:block; 
      height:21px; overflow:hidden; line-height:22px; position:relative; 
      padding-left:15px; padding-right:15px; cursor:pointer;
-    background: #E0EDFF url(../images/controls/btn.gif) repeat-x;
+    background: #E0EDFF url(./controls/btn.gif) repeat-x;
      text-align:center;color: #2C4D79;  text-decoration:none; cursor:pointer;
 }
 /* 按钮左边部位 */
 .l-btn-l
 {
     position:absolute; width:3px; left:0px; top:0px;height:21px;
-    background: #E0EDFF url(../images/controls/btn-l.gif) no-repeat;
+    background: #E0EDFF url(./controls/btn-l.gif) no-repeat;
 }
 /* 按钮右边部位 */
 .l-btn-r
 {position:absolute; width:3px; right:0px; top:0px;height:21px;
-    background: #E0EDFF url(../images/controls/btn-r.gif) no-repeat;
+    background: #E0EDFF url(./controls/btn-r.gif) no-repeat;
 }
 
 
@@ -1815,12 +1815,12 @@ body{font-family: "微软雅黑", "宋体", Arial, sans-serif; font-size: 12px; 
 */
 .l-drag-proxy { border: 1px solid #BDD1EE;position: absolute;z-index: 1001;height:25px; line-height:25px; padding-left:19px; padding-right:4px; background:white;  }
 .l-drag-proxy .l-drop-icon{position: absolute; top:5px; left:4px;width:16px; height:16px; }
-.l-drop-no{background: white url('../images/common/drop-icons.gif') no-repeat 0px -20px; width:16px; height:16px; overflow:hidden;}
-.l-drop-yes{background: white url('../images/common/drop-icons.gif') no-repeat 0px 0px;  width:16px; height:16px; overflow:hidden;}
-.l-drop-add{background: white url('../images/common/drop-icons.gif') no-repeat -20px 0px;  width:16px; height:16px; overflow:hidden;}
+.l-drop-no{background: white url('./common/drop-icons.gif') no-repeat 0px -20px; width:16px; height:16px; overflow:hidden;}
+.l-drop-yes{background: white url('./common/drop-icons.gif') no-repeat 0px 0px;  width:16px; height:16px; overflow:hidden;}
+.l-drop-add{background: white url('./common/drop-icons.gif') no-repeat -20px 0px;  width:16px; height:16px; overflow:hidden;}
 .l-drag-coldroptip{width:9px; position:absolute; height:44px; z-index:1000;}
-.l-drop-move-up{background:transparent url('../images/common/drop-icons.gif') no-repeat -40px 0px; width:9px; height:9px; overflow:hidden;position:absolute; top:0px;}
-.l-drop-move-down{background: transparent url('../images/common/drop-icons.gif') no-repeat -60px 0px; width:9px; height:9px; overflow:hidden; position:absolute; bottom:0px;}
+.l-drop-move-up{background:transparent url('./common/drop-icons.gif') no-repeat -40px 0px; width:9px; height:9px; overflow:hidden;position:absolute; top:0px;}
+.l-drop-move-down{background: transparent url('./common/drop-icons.gif') no-repeat -60px 0px; width:9px; height:9px; overflow:hidden; position:absolute; bottom:0px;}
  
  .l-drag-nodedroptip,.l-drag-rowdroptip{width:9px; position:absolute; height:1px; background-color:red; z-index:1000; line-height:1px; overflow:hidden;}
  
@@ -2877,28 +2877,28 @@ input[type="radio"]:disabled::before {
 
 /*鍥炬爣*/
 .listTable tr.special-td a:first-child{
-	background: url(../images/up.png) no-repeat left center;
+	background: url(./up.png) no-repeat left center;
 }
 .listTable tr.special-td a:nth-child(2){
-	background: url(../images/down.png) no-repeat left center;
+	background: url(./down.png) no-repeat left center;
 }
 .listTable tr.special-td a:nth-child(3){
-	background: url(../images/before.png) no-repeat left center;
+	background: url(./before.png) no-repeat left center;
 }
 .listTable tr.special-td a:nth-child(4){
-	background: url(../images/after.png) no-repeat left center;
+	background: url(./after.png) no-repeat left center;
 }
 .listTable tr.special-td a:last-child{
-	background: url(../images/del.png) no-repeat left center;
+	background: url(./del.png) no-repeat left center;
 }
 .listTable .oprate-item a.oprate {
-	background: url(../images/more.png) no-repeat left center;
+	background: url(./more.png) no-repeat left center;
 }
 .listTable .oprate-item a.oprate-xs {
-	background: url(../images/more.png) no-repeat left center;
+	background: url(./more.png) no-repeat left center;
 }
 a.download{
-	background:url(../images/arrow.png) 0 1px no-repeat;
+	background:url(./arrow.png) 0 1px no-repeat;
 	display:inline-block;
 	height:14px;
 	margin-left:8px;
@@ -2907,7 +2907,7 @@ a.download{
 	text-decoration:none;
 }
 a.cancel{
-	background:url(../images/cancel.png) 0 1px no-repeat;
+	background:url(./cancel.png) 0 1px no-repeat;
 	display:inline-block;
 	height:14px;
 	margin-left:8px;
@@ -3346,8 +3346,7 @@ table.listTable tr.listRow td .link {
 	padding-left: 15px;
 	min-height: 30px;
 }
-
-.formTable-wrap .attachement span {
+.attachement span {
 	display: inline-block;
 	line-height: 30px;
 	background-color: #F0F0F0;
@@ -3554,7 +3553,7 @@ div.panel-body{
 }
 
 .date,.datetime,.datePicker,.wdateTime{
-	background: url(../images/datePicker.gif) no-repeat scroll right center #FFFFFF;
+	background: url(./datePicker.gif) no-repeat scroll right center #FFFFFF;
     border: 1px solid #999999;
     /*margin-left: 4px;
     height: 20px;*/
@@ -3617,7 +3616,7 @@ z0902*/
 }
 
 .tree-toolbar {
-	 background: url("../images/other/bg2.gif") repeat scroll 0  transparent;
+	 background: url("./other/bg2.gif") repeat scroll 0  transparent;
     border-bottom: medium none;
     border-top: medium none;
     height: 21px;
@@ -3781,7 +3780,7 @@ width: 250px;
 }/*z0902 background:#e6e6e6;color: #0167FF;*/
 .table-grid th.sortable{text-align: left;}
 div.header{
-    background: url("../images/other/bg.png") repeat scroll 0 -135px transparent;
+    background: url("./other/bg.png") repeat scroll 0 -135px transparent;
 	height: 30px;
 	line-height:30px;
 	width: 100%;
@@ -3860,13 +3859,13 @@ th.sortable a {
 }
 
 th.order1 a {
-	background-image: url(../images/displaytag/icon-sort-desc.gif);
+	background-image: url(./displaytag/icon-sort-desc.gif);
 	background-repeat: no-repeat;
 	background-position: 80% 50%;
 }
 
 th.order2 a {
-	background-image: url(../images/displaytag/icon-sort-asc.gif);
+	background-image: url(./displaytag/icon-sort-asc.gif);
 	background-repeat: no-repeat;
 	background-position: 80% 50%;
 }
@@ -3899,7 +3898,7 @@ th.order2 a {
 }
 
 .table-grid .over {
-	/*background: url(../images/content_bg_hover.jpg);*/
+	/*background: url(./content_bg_hover.jpg);*/
 	background: #dfeffc;
 }
 
@@ -3936,27 +3935,27 @@ th.order2 a {
 }
 
 .area-export .exportlinks .excel {
-	background-image: url(../images/displaytag/ico_file_excel.png);
+	background-image: url(./displaytag/ico_file_excel.png);
 	background-repeat: no-repeat;
 }
 
 .area-export .exportlinks .csv {
-	background-image: url(../images/displaytag/ico_file_csv.png);
+	background-image: url(./displaytag/ico_file_csv.png);
 	background-repeat: no-repeat;
 }
 
 .area-export .exportlinks .xml {
-	background-image: url(../images/displaytag/ico_file_xml.png);
+	background-image: url(./displaytag/ico_file_xml.png);
 	background-repeat: no-repeat;
 }
 
 .area-export .exportlinks .pdf {
-	background-image: url(../images/displaytag/ico_file_pdf.png);
+	background-image: url(./displaytag/ico_file_pdf.png);
 	background-repeat: no-repeat;
 }
 
 .area-export .exportlinks .rtf {
-	background-image: url(../images/displaytag/ico_file_rtf.png);
+	background-image: url(./displaytag/ico_file_rtf.png);
 	background-repeat: no-repeat;
 }
 .panel-norecord{
@@ -3970,7 +3969,7 @@ th.order2 a {
    background-color: #fff;
    height:30px;
    padding:10px 0;
-	/*background: url(../images/tool_bg.jpg) repeat-x; border: 3px solid #dddddd;*/
+	/*background: url(./tool_bg.jpg) repeat-x; border: 3px solid #dddddd;*/
 }
 .l-bar-group-right {
     float: left;
@@ -4008,7 +4007,7 @@ th.order2 a {
 
 
 label.error {
-	background: url(../images/valid/unchecked.gif) no-repeat 0px 0px;
+	background: url(./valid/unchecked.gif) no-repeat 0px 0px;
 	margin-left: 16px;
 	padding-left: 16px;
 	padding-bottom: 2px;
@@ -4025,7 +4024,7 @@ label.initerror {
 }
 
 label.checked {
-	background: url(../images/valid/checked.gif) no-repeat 0px 0px;
+	background: url(./valid/checked.gif) no-repeat 0px 0px;
 }
 
 
@@ -4177,10 +4176,10 @@ a.link.init,.panel-toolbar a.link.init span {
     background: url(".//icons_init02.png") no-repeat scroll 0 center transparent;
 }
 a.link.show,.panel-toolbar a.link.show span {
-    background: url("../images/menu/show.gif") no-repeat scroll 0 center transparent;
+    background: url("./menu/show.gif") no-repeat scroll 0 center transparent;
 }
 a.link.no,.panel-toolbar  a.link.no span {
-    background: url("../images/menu/no.png") no-repeat scroll 0 center transparent;
+    background: url("./menu/no.png") no-repeat scroll 0 center transparent;
 }
 a.link.undo,.panel-toolbar a.link.undo span {
     background: url(".//icons_reload.png") no-repeat scroll 0 center transparent;
@@ -4195,7 +4194,7 @@ a.link.redo,.panel-toolbar a.link.redo span {
     background: url(".//icons_redo_02.png") no-repeat scroll 0 center transparent;
 }
 a.link.sended {
-    background: url("../images/error/error_btn_bg.png") repeat-x scroll 0 0 transparent;
+    background: url("./error/error_btn_bg.png") repeat-x scroll 0 0 transparent;
     border: 1px solid rgb(153, 153, 153);
 	border-radius: 3px 3px 3px 3px;
 	cursor: pointer;
@@ -4211,16 +4210,16 @@ a.link.update,.panel-toolbar a.link.update span {
     background: url(".//icons_update02.png") no-repeat scroll 0 center transparent;
 }
 a.link.upload,.panel-toolbar a.link.upload span {
-    background: url("../images/menu/upload.png") no-repeat scroll 0 center transparent;
+    background: url("./menu/upload.png") no-repeat scroll 0 center transparent;
 }
 a.link.xml-bpm,.panel-toolbar a.link.xml-bpm span {
-    background: url("../images/menu/xml-bpm.png") no-repeat scroll 0 center transparent;
+    background: url("./menu/xml-bpm.png") no-repeat scroll 0 center transparent;
 }
 a.link.reload,.panel-toolbar a.link.reload span {
-    background: url("../images/icon/reload.png") no-repeat scroll 0 center transparent;
+    background: url("./icon/reload.png") no-repeat scroll 0 center transparent;
 }
 a.link.xml-design,.panel-toolbar a.link.xml-design span {
-    background: url("../images/menu/xml-design.png") no-repeat scroll 0 center transparent;
+    background: url("./menu/xml-design.png") no-repeat scroll 0 center transparent;
 }
 a.link.preview,.panel-toolbar a.link.preview span {
     background: url(".//icons_preview.png") no-repeat scroll 0 center transparent;
@@ -4229,22 +4228,22 @@ a.link.preview,.panel-toolbar a.link.preview span {
     background: url(".//icons_preview02.png") no-repeat scroll 0 center transparent;
 }
 a.link.expand,.panel-toolbar a.link.expand span {
-    background: url("../images/icon/expand.gif") no-repeat scroll 0 center transparent;
+    background: url("./icon/expand.gif") no-repeat scroll 0 center transparent;
 }
 a.link.collapse,.panel-toolbar a.link.collapse span {
-    background: url("../images/icon/collapse.gif") no-repeat scroll 0 center transparent;
+    background: url("./icon/collapse.gif") no-repeat scroll 0 center transparent;
 }
 a.link.moveup,.panel-toolbar a.link.moveup span {
-    background: url("../images/menu/moveup.png") no-repeat scroll 0 center transparent;
+    background: url("./menu/moveup.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.moveup:hover span {
-    background: url("../images/menu/moveup02.png") no-repeat scroll 0 center transparent;
+    background: url("./menu/moveup02.png") no-repeat scroll 0 center transparent;
 }
 a.link.movedown,.panel-toolbar a.link.movedown span {
-    background: url("../images/menu/movedown.png") no-repeat scroll 0 center transparent;
+    background: url("./menu/movedown.png") no-repeat scroll 0 center transparent;
 }
 .panel-toolbar a.link.movedown:hover span {
-    background: url("../images/menu/movedown02.png") no-repeat scroll 0 center transparent;
+    background: url("./menu/movedown02.png") no-repeat scroll 0 center transparent;
 }
 a.link.next,.panel-toolbar a.link.next span {
     background: url(".//next.gif") no-repeat scroll 0 center transparent;
@@ -4347,7 +4346,7 @@ a.link.reset,.panel-toolbar a.link.reset span{
 	background: url(".//icons_reset02.png") no-repeat scroll 0 center transparent;
 }
 a.link.send{
-	background:url(../images/menu/add.gif) 0px -2px no-repeat;
+	background:url(./menu/add.gif) 0px -2px no-repeat;
 }
 a.link.end{
 	background:url(.//run.png) 0px -2px no-repeat;
@@ -4419,7 +4418,7 @@ a.link.upload,.panel-toolbar a.link.upload span {
     background: url(".//icons_upload02.png") no-repeat scroll 0 center transparent;
 }
 a.link.var,.panel-toolbar a.link.var span {
-    background: url("../images/bpm/code.gif") no-repeat scroll 0 0 transparent;
+    background: url("./bpm/code.gif") no-repeat scroll 0 0 transparent;
 }
 a.link.backUp,.panel-toolbar a.link.backUp span {
     background: url(".//icons_backUp.png") no-repeat scroll 0 -2px transparent;
@@ -4434,16 +4433,16 @@ a.link.setting,.panel-toolbar a.link.setting span {
     background: url(".//icons_setting02.png") no-repeat scroll 0 1px transparent;
 }
 a.link.grant,.panel-toolbar a.link.grant span {
-    background: url("../images/menu/grant.png") no-repeat scroll 0 0 transparent;
+    background: url("./menu/grant.png") no-repeat scroll 0 0 transparent;
 }
 .panel-toolbar a.link.grant:hover span {
-    background: url("../images/menu/grant02.png") no-repeat scroll 0 0 transparent;
+    background: url("./menu/grant02.png") no-repeat scroll 0 0 transparent;
 }
 a.link.grantSort,.panel-toolbar a.link.grantSort span {
-    background: url("../images/menu/grant.png") no-repeat scroll 0 0 transparent;
+    background: url("./menu/grant.png") no-repeat scroll 0 0 transparent;
 }
 a.link.deploy,.panel-toolbar a.link.deploy span {
-    background: url("../images/icon/deploy.gif") no-repeat scroll 0 -2px transparent;
+    background: url("./icon/deploy.gif") no-repeat scroll 0 -2px transparent;
 }
 a.link.auth,.panel-toolbar a.link.auth span {
     background: url(".//icons_auth.png") no-repeat scroll 0 -2px transparent;
@@ -4452,13 +4451,13 @@ a.link.auth,.panel-toolbar a.link.auth span {
     background: url(".//icons_auth02.png") no-repeat scroll 0 -2px transparent;
 }
 a.link.lock,.panel-toolbar a.link.lock span {
-    background: url("../images/menu/lock.png") no-repeat scroll 0 -2px transparent;
+    background: url("./menu/lock.png") no-repeat scroll 0 -2px transparent;
 }
 .panel-toolbar a.link.lock:hover span {
-    background: url("../images/menu/lock02.png") no-repeat scroll 0 -2px transparent;
+    background: url("./menu/lock02.png") no-repeat scroll 0 -2px transparent;
 }
 a.link.unlock,.panel-toolbar a.link.unlock span {
-    background: url("../images/menu/unlock.png") no-repeat scroll 0 0 transparent;
+    background: url("./menu/unlock.png") no-repeat scroll 0 0 transparent;
 }
 a.link.newVersion,.panel-toolbar a.link.newVersion span {
     background: url(".//icons_newVersion.png") no-repeat scroll 0 center transparent;
@@ -4473,7 +4472,7 @@ a.link.cancel,.panel-toolbar a.link.cancel span {
     background: url(".//icons_cancel02.png") no-repeat scroll 0 0 transparent;
 }
 .panel-toolbar a.link.selectFile span {
-    background: url("../images/icon/file.gif") no-repeat scroll 0 2px transparent;
+    background: url("./icon/file.gif") no-repeat scroll 0 2px transparent;
 }
 a.link.selectFile{
     background:url(.//icons_file.png) 5px center no-repeat #5ae2c4;
@@ -4491,10 +4490,10 @@ a.link.print,.panel-toolbar a.link.print span {
     background: url(".//icons_dataList02.png") no-repeat scroll 0 -2px transparent;
 }
 a.link.printSetting,.panel-toolbar  a.link.printSetting span {
-    background: url("../images/icon/printSetting.gif") no-repeat scroll 0 2px transparent;
+    background: url("./icon/printSetting.gif") no-repeat scroll 0 2px transparent;
 }
 a.link.printPreView,.panel-toolbar a.link.printPreView span {
-    background: url("../images/icon/printPreView.gif") no-repeat scroll 0 2px transparent;
+    background: url("./icon/printPreView.gif") no-repeat scroll 0 2px transparent;
 }
 a.link.sendMessage,.panel-toolbar a.link.sendMessage span {
     background: url(".//icons_sendMessage02.png") no-repeat scroll 0 0px transparent;
@@ -4503,7 +4502,7 @@ a.link.sendMessage,.panel-toolbar a.link.sendMessage span {
     background: url(".//icons_sendMessage02.png") no-repeat scroll 0 0px transparent;
 }
 a.link.addMessage,.panel-toolbar a.link.addMessage span {
-    background: url("../images/icon/addMessage.gif") no-repeat scroll 0 0px transparent;
+    background: url("./icon/addMessage.gif") no-repeat scroll 0 0px transparent;
 }
 a.link.parameter,.panel-toolbar a.link.parameter span {
     background: url(".//parameter.png") no-repeat scroll 0 -2px transparent;
@@ -4524,13 +4523,13 @@ a.link.primary,.panel-toolbar a.link.primary span {
     background: url(".//icons_primary02.png") no-repeat scroll 0 -2px transparent;
 }
 a.link.notPrimary,.panel-toolbar a.link.notPrimary span {
-    background: url("../images/icon/notPrimary.gif") no-repeat scroll 0 -2px transparent;
+    background: url("./icon/notPrimary.gif") no-repeat scroll 0 -2px transparent;
 }
 a.link.charge,.panel-toolbar a.link.charge span {
-    background: url("../images/icon/charge.gif") no-repeat scroll 0 -2px transparent;
+    background: url("./icon/charge.gif") no-repeat scroll 0 -2px transparent;
 }
 a.link.noCharge,.panel-toolbar a.link.noCharge span {
-    background: url("../images/icon/noCharge.gif") no-repeat scroll 0 -2px transparent;
+    background: url("./icon/noCharge.gif") no-repeat scroll 0 -2px transparent;
 }
 a.link.reject,.panel-toolbar a.link.reject span {
     background: url(".//icons_reject02.png") no-repeat scroll 0 -2px transparent;
@@ -4581,15 +4580,15 @@ a.link.log,.panel-toolbar a.link.log span {
     background: url(".//icons_log02.png") no-repeat scroll 0 1px transparent;
 }
 a.link.table,.panel-toolbar a.link.table span {
-    background: url("../images/menu/table.gif") no-repeat scroll 0 1px transparent;
+    background: url("./menu/table.gif") no-repeat scroll 0 1px transparent;
 }
 
 a.link.helped,.panel-toolbar a.link.helped span {
-    background: url("../images/icon/help.gif") no-repeat scroll 0 -2px transparent;
+    background: url("./icon/help.gif") no-repeat scroll 0 -2px transparent;
 }
 
 a.link.stop,.panel-toolbar a.link.stop span {
-    background: url("../images/icon/stop.png") no-repeat scroll 0 1px transparent;
+    background: url("./icon/stop.png") no-repeat scroll 0 1px transparent;
 }
 
 a.link.reloaded,a.link.backed{
@@ -4599,7 +4598,7 @@ a.link.reloaded,a.link.backed{
 	line-height: 23px;
 	padding: 0px 12px 3px 8px;
 	text-align: center;
-	background: url("../images/other/bg.png") repeat-x scroll 0px -170px transparent !important;
+	background: url("./other/bg.png") repeat-x scroll 0px -170px transparent !important;
 }
 a.link.reloaded span,a.link.backed span{
 	display: inline-block;
@@ -4609,10 +4608,10 @@ a.link.reloaded span,a.link.backed span{
 	margin-bottom: -7px;
 }
 a.link.reloaded span{
-background: url("../images/error/404_login.png") no-repeat scroll 0 1px transparent;
+background: url("./error/404_login.png") no-repeat scroll 0 1px transparent;
 }
 a.link.backed span{
-background: url("../images/error/error_back.png") no-repeat scroll 0 1px transparent;
+background: url("./error/error_back.png") no-repeat scroll 0 1px transparent;
 }
 a.link.category,.panel-toolbar a.link.category span{
 	background:url(.//icons_category.png) 0px 1px no-repeat;
@@ -4631,29 +4630,29 @@ a.link.copyTo,.panel-toolbar a.link.copyTo span{
 }
 
 .link-sortUp {
-	background: url(../images/menu/arrow-up.png) no-repeat !important;
+	background: url(./menu/arrow-up.png) no-repeat !important;
 	text-decoration: none;
 }
 
 .link-sortDown {
-	background: url(../images/menu/arrow-down.png) no-repeat !important;
+	background: url(./menu/arrow-down.png) no-repeat !important;
 	text-decoration: none;
 }
 
 .link-sortTop {
-	background: url(../images/menu/sort_top.png) no-repeat !important;
+	background: url(./menu/sort_top.png) no-repeat !important;
 }
 
 .link-sortBottom {
-	background: url(../images/menu/sort_bottom.png) no-repeat !important;
+	background: url(./menu/sort_bottom.png) no-repeat !important;
 }
 
 a.link.help {
-	background: url(../images/icon/help.gif) no-repeat !important;
+	background: url(./icon/help.gif) no-repeat !important;
 }
 
 a.link.excel {
-	background-image: url(../images/displaytag/ico_file_excel.png);
+	background-image: url(./displaytag/ico_file_excel.png);
 	background-repeat: no-repeat;
 }
 /*==================end of link button===============================*/
@@ -4668,7 +4667,7 @@ a.button:link { text-decoration: none;}
 a.button {	
 	color:#000;  
 	font-size: 12px;
-	background: url("../images/other/bg.png") repeat-x scroll 0 -170px transparent !important;
+	background: url("./other/bg.png") repeat-x scroll 0 -170px transparent !important;
 	border: 1px solid #999999;
 	border-radius: 3px 3px 3px 3px;
 	cursor: pointer;
@@ -4742,7 +4741,7 @@ a.button span.icon.cancel{
 }
 
 a.button span.icon.valid{
-	background: url(../images/icon/valid.gif) no-repeat 0px 3px;
+	background: url(./icon/valid.gif) no-repeat 0px 3px;
 }
 
 
@@ -4751,7 +4750,7 @@ a.button span.icon.valid{
 	
 */
 a.tipinfo{
-	background:url(../images/icon/help.gif) 0px -2px no-repeat;
+	background:url(./icon/help.gif) 0px -2px no-repeat;
 	padding-left: 20px;
 	line-height: 20px;
 	text-decoration: none;
@@ -4819,7 +4818,7 @@ div.desktop{
  .panel-top-left {float: left;font-size: 14px;font-weight: bold;}
  .panel-top-right {float: right; margin-right: 10px;}
 .panel-top h2 { display: inline-block;float: left; font-size: 14px;height: 23px;  padding-left: 24px;}
-.panel-top h2.setting {background: url("../images/other/icon_settings_20.png") no-repeat scroll left center transparent;}
+.panel-top h2.setting {background: url("./other/icon_settings_20.png") no-repeat scroll left center transparent;}
 .panel-top .inline {  float: left;}
 .table-top {height: 14px;margin-top: 15px;}
 .table-top .table-top-left {color: #1673FF; float: left; font-size: 14px; font-weight: bold;}
@@ -4837,21 +4836,21 @@ div.desktop{
 .panel-container .l-tab-links .l-selected a { background: none repeat scroll 0 0 #FFFFFF; border-radius: 4px 4px 4px 4px;color: #488DF5; cursor: pointer;outline: 0 none;padding: 10px 10px 5px;}
 .panel-container table th { color: #000000;}
 .panel-container table a.moveup, .panel-container table a.movedown {display: inline;height: 20px;margin: 8px;padding-bottom: 14px; width: 20px;}
-.panel-container table a.moveup { background: url("../images/other/icon_upside.png") no-repeat scroll 0 5px transparent;}
-.panel-container table a.movedown {background: url("../images/other/icon_downside.png") no-repeat scroll 0 5px transparent;}
+.panel-container table a.moveup { background: url("./other/icon_upside.png") no-repeat scroll 0 5px transparent;}
+.panel-container table a.movedown {background: url("./other/icon_downside.png") no-repeat scroll 0 5px transparent;}
 .panel-container table a.moveup:hover, .panel-container table a.movedown:hover {background-position: 0 0;}
 
 .foldBox { border-top: 2px solid #488DF5;clear: both; display: inline-block;margin: 10px 5px 5px; position: relative; width: 99%;}
 .foldBox a.drop {cursor: pointer;text-decoration: none;}
 .foldBox .title {  background: none repeat scroll 0 0 #FFFFFF;color: #1673FF;font-size: 14px; font-weight: bold; left: 12px;padding-left: 10px;padding-right: 15px;position: absolute; top: -15px;}
 .foldBox .drop {background: none repeat scroll 0 0 #FFFFFF;color: #488DF5;font-weight: bold;padding: 0 10px;position: absolute;right: 12px;top: -12px;}
-.foldBox .drop span { background: url("../images/other/1.png") no-repeat scroll 0 -35px transparent;display: inline-block;height: 6px;width: 12px;}
+.foldBox .drop span { background: url("./other/1.png") no-repeat scroll 0 -35px transparent;display: inline-block;height: 6px;width: 12px;}
 .foldBox .content { margin: 12px 8px; padding: 10px;}
 .panel-search .title { 
 	color: #037ad5; font-size: 12px;
 	padding: 10px 15px 10px 32px;
 	position:absolute; left:0px; top:0px;
-	background:url("../images/other/search_title.png") no-repeat scroll 15px center #edf7ff;
+	background:url("./other/search_title.png") no-repeat scroll 15px center #edf7ff;
 	width:100%;  z-index:510;
 	box-sizing:border-box;
 	-wekit-box-sizing:border-box;
@@ -4937,12 +4936,12 @@ div.desktop{
 .table-noborder th { border: medium none;font-size: 14px;font-weight: bold;padding: 5px 10px;}
 
 span.open-message{
-	background: url(../images/msg_none.png) no-repeat 0px -1px;
+	background: url(./msg_none.png) no-repeat 0px -1px;
 	padding:2px 0 2px 20px;
 }
 
 span.close-message{
-	background: url(../images/msg_own.png) no-repeat 0px -1px;
+	background: url(./msg_own.png) no-repeat 0px -1px;
 	padding:2px 0 2px 20px;
 }
 a.message{
@@ -4953,11 +4952,11 @@ a.message{
 	height:20px;
 }
 a.message.open-message{
-	background: url(../images/msg_none.png) no-repeat 0px -1px;
+	background: url(./msg_none.png) no-repeat 0px -1px;
 }
 
 a.message.close-message{
-	background: url(../images/msg_own.png) no-repeat 0px -1px;
+	background: url(./msg_own.png) no-repeat 0px -1px;
 }
 
 .quick-find{
@@ -4965,7 +4964,7 @@ a.message.close-message{
 }
 
 div.tipbox{
-	background:url(../images/icon/help.gif) 0 0 no-repeat;
+	background:url(./icon/help.gif) 0 0 no-repeat;
 	width:20px;
 	height:20px;
 	display:inline;
@@ -5066,11 +5065,11 @@ a.link.mobile{
 
 
 a.link.movetop {
-	background: url(../images/menu/sort_top.png) no-repeat !important;
+	background: url(./menu/sort_top.png) no-repeat !important;
 }
 
 a.link.movebottom {
-	background: url(../images/menu/sort_bottom.png) no-repeat !important;
+	background: url(./menu/sort_bottom.png) no-repeat !important;
 }
 
 /*瑙ｅ喅鍦ㄧ伀鐙愪笅 ligerdialog寮瑰嚭妗嗘樉绀轰笉鍏ㄧ殑闂*/
@@ -5173,7 +5172,7 @@ div[formtype='window'] {
 }
 
 a.download{
-   	background:url(../images/arrow.png) 0 1px no-repeat;
+   	background:url(./arrow.png) 0 1px no-repeat;
    	display:inline-block;
    	height:14px;
    	margin-left:8px;
@@ -5196,7 +5195,7 @@ a.download{
 		z-index: 10;
 	}
 }
-/*! laydate-v5.0.9 鏃ユ湡涓庢椂闂寸粍浠� MIT License  http://www.layui.com/laydate/  By 璐ゅ績 */
+
 .layui-select {
     background-color: #63A3FF !important;
     color: #fff !important;
@@ -6327,7 +6326,7 @@ html #layuicss-laydate {
 }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-	background-image: url('../images/fancybox_sprite.png');
+	background-image: url('./fancybox_sprite.png');
 }
 
 #fancybox-loading {
@@ -6345,7 +6344,7 @@ html #layuicss-laydate {
 #fancybox-loading div {
 	width: 44px;
 	height: 44px;
-	background: url('../images/fancybox_loading.gif') center center no-repeat;
+	background: url('./fancybox_loading.gif') center center no-repeat;
 }
 
 .fancybox-close {
@@ -6365,7 +6364,7 @@ html #layuicss-laydate {
 	height: 100%;
 	cursor: pointer;
 	text-decoration: none;
-	background: transparent url('../images/blank.gif'); /* helps IE */
+	background: transparent url('./blank.gif'); /* helps IE */
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	z-index: 8040;
 }
@@ -6426,7 +6425,7 @@ html #layuicss-laydate {
 	overflow: hidden;
 	display: none;
 	z-index: 8010;
-	background: url('../images/fancybox_overlay.png');
+	background: url('./fancybox_overlay.png');
 }
 
 .fancybox-overlay-fixed {
@@ -6508,28 +6507,28 @@ html #layuicss-laydate {
 }
 
 .pictureShow_next{
-	background:url('../images/pictureShow_next.png') 0px 1px no-repeat;
+	background:url('./pictureShow_next.png') 0px 1px no-repeat;
 	width: 20px;
 	height: 64px;
 	display: inline-block;
 }
 
 .pictureShow_prev{
-	background:url('../images/pictureShow_prev.png') 0px 1px no-repeat;
+	background:url('./pictureShow_prev.png') 0px 1px no-repeat;
 	width: 20px;
 	height: 64px;
 	display: inline-block;
 }
 
 .pictureShow_n_next{
-	background:url('../images/pictureShow_n_next.png') 0px 1px no-repeat;
+	background:url('./pictureShow_n_next.png') 0px 1px no-repeat;
 	width: 20px;
 	height: 64px;
 	display: inline-block;
 }
 
 .pictureShow_n_prev{
-	background:url('../images/pictureShow_n_prev.png') 0px 1px no-repeat;
+	background:url('./pictureShow_n_prev.png') 0px 1px no-repeat;
 	width: 20px;
 	height: 64px;
 	display: inline-block;
@@ -7618,28 +7617,28 @@ input[type="radio"]:disabled::before {
 
 /*鍥炬爣*/
 .listTable tr.special-td a:first-child{
-	background: url(../images/up.png) no-repeat left center;
+	background: url(./up.png) no-repeat left center;
 }
 .listTable tr.special-td a:nth-child(2){
-	background: url(../images/down.png) no-repeat left center;
+	background: url(./down.png) no-repeat left center;
 }
 .listTable tr.special-td a:nth-child(3){
-	background: url(../images/before.png) no-repeat left center;
+	background: url(./before.png) no-repeat left center;
 }
 .listTable tr.special-td a:nth-child(4){
-	background: url(../images/after.png) no-repeat left center;
+	background: url(./after.png) no-repeat left center;
 }
 .listTable tr.special-td a:last-child{
-	background: url(../images/del.png) no-repeat left center;
+	background: url(./del.png) no-repeat left center;
 }
 .listTable .oprate-item a.oprate {
-	background: url(../images/more.png) no-repeat left center;
+	background: url(./more.png) no-repeat left center;
 }
 .listTable .oprate-item a.oprate-xs {
-	background: url(../images/more.png) no-repeat left center;
+	background: url(./more.png) no-repeat left center;
 }
 a.download{
-	background:url(../images/arrow.png) 0 1px no-repeat;
+	background:url(./arrow.png) 0 1px no-repeat;
 	display:inline-block;
 	height:14px;
 	margin-left:8px;
@@ -7648,7 +7647,7 @@ a.download{
 	text-decoration:none;
 }
 a.cancel{
-	background:url(../images/cancel.png) 0 1px no-repeat;
+	background:url(./cancel.png) 0 1px no-repeat;
 	display:inline-block;
 	height:14px;
 	margin-left:8px;
@@ -8087,8 +8086,7 @@ table.listTable tr.listRow td .link {
 	padding-left: 15px;
 	min-height: 30px;
 }
-
-.formTable-wrap .attachement span {
+.attachement span {
 	display: inline-block;
 	line-height: 30px;
 	background-color: #F0F0F0;
@@ -8105,6 +8103,1614 @@ table.listTable tr.listRow td .link {
 }
 
 /* 閲嶅啓select2鏍峰紡 */
+.select2-container{
+	position: relative;
+	box-sizing: border-box !important;
+	padding: 0;
+	min-height: 35px;
+	line-height: 35px;
+	border: 1px solid #E6E6E6;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.select2-container .my-select2-clear{
+	position: absolute;
+	right: 4px;
+	top: 9px;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	text-align: center;
+	background: url(../../techblue/css/select2-3.5.4/select2.png) right top no-repeat;
+	cursor: pointer;
+}
+
+.select2-container .my-select2-clear:hover{
+	background-position: right -11px;
+}
+
+.select2-container .select2-arrow{
+	display: none !important;
+}
+
+.select2-container .select2-choice{
+	padding-left: 15px;
+	height: auto;
+	border: none;
+	background: none;
+}
+
+.select2-container .select2-choice .select2-chosen{
+	padding: 0;
+	height: auto;
+	line-height: 33px;
+	border: none;
+	background: none;
+}
+
+.select2-container .select2-choices{
+	background-image: none;
+	border: none;
+}
+
+.select2-container .select2-choices .select2-search-field{
+	line-height: 33px !important;
+}
+
+.select2-container .select2-choices .select2-input{
+	padding: 0 0 0 15px !important;
+	height: 33px;
+	margin: 0 !important;
+	line-height: 33px;
+}
+
+.table-scroll {
+	width:100%;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+.formInput .select2-container{
+	display: block;
+	width: auto !important;
+	margin-right: 54px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+@media only screen and (max-width:768px){
+	.panel-toolbar .toolBar .mobileLogo {
+		display:block;
+		padding-left:15px;
+	}
+	.panel-toolbar .toolBar .pcLogo {
+		display:none;
+	}
+
+	.panel-toolbar .toolBar > div.flowLogo {
+		float: left;
+		width: 15%;
+	}
+	.panel-toolbar .toolBar > div.flowButton {
+		float: left;
+		width: 85%;
+	}
+
+	.listTable .listRow .oprate-item .oprate-inner{
+		display:none;
+	}
+	.listTable .listRow .oprate-item .oprate-inner.mobile{
+		display:inline-block;
+	}
+
+	.headRow th,
+	.listRow td {
+		min-width: 150px;
+	}
+	div[type="subtable"] table {
+		table-layout:auto !important;
+		overflow-x: scroll;
+		min-width: 100%;
+	}
+	.l-tab-l {
+		position: relative !important;
+		float: left;
+		height: auto !important;
+		width: 100% !important;
+		top: 0 !important;
+	}
+	.l-tab-l .l-tab-links {
+		top: 0 !important;
+		right: 0 !important;
+	}
+	.l-tab-l .l-tab-links li {
+		width: 50%;
+	}
+
+	.status-img {
+		position: absolute;
+		left: 70%;
+		top: 20%;
+	}
+}
+
+/*公用部分*/
+html,
+body {
+	background-color: #F0F2F5;
+}
+
+table {
+	width: 100%;
+}
+
+div[type="subtable"]:last-of-type {
+	margin-bottom: 40px;
+	padding: 0 60px 20px;
+}
+
+div[type="subtable"]:first-of-type {
+	padding-top: 20px;
+}
+div[type="sub"]:first-of-type {
+	margin-top: 20px;
+}
+div[type="sub"]:last-of-type {
+	margin-bottom: 20px;
+}
+div[type="sub"] {
+	font-size: 14px;
+	color: #000;
+	margin: 0 auto;
+	background-color: #fff;
+	width: 60%;
+	padding: 30px 60px;
+}
+
+table.formTable,
+td.teamHead,
+td.formTitle,
+td.formInput {
+	border: none;
+}
+
+a {
+	cursor: pointer;
+}
+
+input[readonly] {
+	background-color: #F0F0F0;
+}
+
+.formTable input[type="text"],
+.formTable select {
+	padding: 7px 10px;
+}
+
+
+/*特殊部分*/
+.formTable-wrap.three .formTable td.formTitle{
+	text-align: right;
+}
+.formTable-wrap.three .formTable td.formInput label,
+.formTable-wrap.four .formTable td.formInput label {
+	margin-bottom: 10px;
+}
+
+.formTable-wrap.three .formTable td.formInput label:last-child,
+.formTable-wrap.four .formTable td.formInput label:last-child {
+	margin-bottom: 0px;
+}
+.formTable-wrap.one .formTable .l-text-wrapper,
+.formTable-wrap.one .formTable .l-text-combobox,
+.formTable-wrap.one .formTable .l-text-combobox input{
+	width: 97%!important;
+}
+.formTable-wrap.two .formTable .l-text-wrapper,
+.formTable-wrap.two .formTable .l-text-combobox,
+.formTable-wrap.two .formTable .l-text-combobox input {
+	width: 97%!important;
+}
+.formTable-wrap.three .formTable .l-text-wrapper,
+.formTable-wrap.three .formTable .l-text-combobox,
+.formTable-wrap.three .formTable .l-text-combobox input {
+	width: 94.4%!important;
+}
+
+.formTable-wrap.four .formTable .l-text-wrapper,
+.formTable-wrap.four .formTable .l-text-combobox,
+.formTable-wrap.four .formTable .l-text-combobox input {
+	width: 94%!important;
+}
+
+/*顶部按钮*/
+
+.panel-toolbar {
+	padding: 15px 15px 15px 10px;
+	height: 60px;
+	/* height:auto; */
+}
+
+.panel-toolbar a.link {
+	font-size: 14px;
+}
+
+.panel-toolbar a.run,
+.panel-toolbar a.agree,
+.panel-toolbar a.goForward {
+	background: #10C66B !important;
+	border: 1px solid #10C66B;
+	color: #fff;
+}
+
+.panel-toolbar a.reject,
+.panel-toolbar a.rejectToStart,
+.panel-toolbar a.abandon {
+	background: #FAA525 !important;
+	border: 1px solid #FAA525;
+	color: #fff;
+}
+
+.panel-toolbar a.search,
+.panel-toolbar a.save,
+.panel-toolbar a.reset,
+.panel-toolbar a.flowDesign,
+.panel-toolbar a.setting,
+.panel-toolbar a.history,
+.panel-toolbar a.print,
+.panel-toolbar a.copyTo,
+.panel-toolbar a.copy,
+.panel-toolbar a.detail,
+.panel-toolbar a.sendMessage,
+.panel-toolbar a.switchuser {
+	background: #459FFF !important;
+	border: 1px solid #459FFF;
+	color: #fff;
+}
+
+.panel-toolbar .toolBar > div > img {
+	padding-left: 10px;
+	max-width: 100%;
+}
+
+.group {
+	float: right;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+
+a.attachment {
+	text-decoration: none;
+	font-size: 13px;
+	color: #606060;
+}
+
+
+/*表单*/
+
+.formTable-wrap {
+	width: 60%;
+	padding: 30px 60px;
+	margin: 0 auto;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	background-color: #fff;
+}
+
+.formTable-wrap .formTable {
+	color: #000;
+	position: relative;
+	font-size: 14px;
+}
+
+.formTable td.formHead {
+	text-align: center;
+	font-size: 24px;
+	color: #363E62;
+	padding-bottom: 20px;
+	border: none;
+}
+
+.formTable td.teamHead {
+	background: transparent;
+	color: #363E62;
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+.listTable td.formHead p,
+.formTable td.teamHead p {
+	border-bottom: 1px dashed #89969F;
+	padding-bottom: 5px;
+	margin: 10px 0px 25px 0px;
+	text-align: left;
+}
+
+.listTable td.formHead p>span,
+.formTable td.teamHead p>span {
+	border-left: 5px solid #459FFF;
+	padding: 0px 8px;
+}
+
+.formTable tbody:first-child {
+	width: 100%;
+	text-align: center;
+}
+
+.formTable tbody>tr:first-child {
+	width: 100%;
+	display: table-row;
+	margin-left: 60px;
+	margin-bottom: 20px;
+	padding: 20px 0px 15px 0px;
+}
+
+.formTable tbody:first-child>tr:first-child {
+	margin-left: 0px;
+	display: table-row;
+	width: 100%;
+}
+
+.formTable tr.firstRow {
+	float: initial;
+	display: initial;
+	border-bottom: 0px;
+}
+
+.formTable td.formTitle {
+	position: relative;
+	background: transparent;
+	width: 120px!important;
+	padding-bottom: 20px;
+}
+
+.formTable td.formInput {
+	padding: 0px 0px 20px 10px;
+	text-align: left;
+}
+
+.formTable .l-text-wrapper,
+.formTable .l-text-combobox,
+.formTable .l-text-combobox input {
+	width: 99% !important;
+	height: 36px !important;
+	padding-left: 10px;
+}
+
+.formTable .l-text-combobox input {
+	border: 1px solid #E6E6E6;
+	margin: -3px 0px 0px -9px;
+}
+
+.formTable input[type="text"],
+.formTable select {
+	border: 1px solid #E6E6E6;
+	height: 36px;
+	box-sizing: border-box;
+	padding: 7px 15px;
+}
+
+.formTable input[type="text"] {
+	width: 100%;
+}
+
+.formTable select {
+	width: 100%;
+}
+
+input[type="radio"]::before {
+	border-radius: 50%;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: sub;
+	position: relative;
+	margin-bottom: 5px;
+	margin: 0 6px 5px 15px;
+}
+
+.formTable td.formInput label {
+	display: inline-block;
+	margin-top: 5px;
+}
+
+input[type="checkbox"]::before,
+input[type="radio"]::before {
+	content: "";
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	background: #fff;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #E6E6E6;
+}
+
+input[type="checkbox"]:checked::before,
+input[type="radio"]:checked::before {
+	content: "\2713" !important;
+	background-color: #459FFF !important;
+	color: #fff !important;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.formTable td.formInput>div {
+	position: relative;
+}
+
+.formTable td.formInput {
+	position: relative;
+}
+
+.formTable td.formInput>div>a.link {
+	position: absolute;
+	right: -1px;
+	display: block;
+	top: 0;
+	line-height: 36px;
+	height: 36px;
+	padding: 0 16px;
+	background: #459FFF;
+	color: #fff;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.formTable td.formInput>a.extend {
+	position: absolute;
+	right: -1px;
+	display: block;
+	top: 0;
+	line-height: 36px;
+	height: 36px;
+	padding: 0 15px;
+	background: #459FFF;
+	color: #fff;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.formTable textarea {
+	border: 1px solid #E6E6E6;
+	width: 100% !important;
+	height: 100px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+
+.formTable tbody:last-child>tr:first-child {
+	border-bottom: 0px;
+	margin: 0px;
+	padding: 0px;
+	display: table-row;
+	float: none;
+}
+
+.formTable tbody#qt>tr:nth-child(3) {
+	margin-top: 35px;
+}
+
+.formTable tbody#qt>tr:nth-child(2)>td:last-child>div,
+.formTable .formInput div[name="div_attachment_container"] {
+	float: left;
+	width: 100%;
+	padding-bottom: 40px;
+}
+
+.formTable div.attachement,
+.l-dialog-tck div.attachement,
+.listTable tr.listRow td div.attachement {
+	max-width: 100%;
+	white-space: pre-wrap;
+}
+
+div.attachement {
+	float: left;
+	overflow: hidden;
+	padding: 3px 0 0;
+	/* white-space: nowrap; */
+}
+
+.formTable span.attachement-span,
+.l-dialog-tck span.attachement-span {
+	padding: 1px 3px 1px 5px;
+	max-width: 100%;
+}
+
+.formTable span.attachement-span>span,
+.l-dialog-tck span.attachement-span>span {
+	display: inline-block;
+}
+
+.formTable span.attachement-span>span>a,
+.l-dialog-tck span.attachement-span>span>a {
+	max-width: 100%;
+	display: inline-block;
+}
+
+.formTable tbody#qt>tr:nth-child(2)>td:last-child a.link {
+	bottom: 0;
+	top: auto;
+}
+
+.formTable tbody#qt>tr>td.formInput {
+	width: 88%;
+}
+
+.formTable a.selectFile {
+	left: 0px;
+	width: 30px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.formTable .l-trigger,
+.formTable .l-trigger-hover,
+.formTable .l-trigger-pressed {
+	width: 15px;
+	height: 38px !important;
+	cursor: default;
+}
+
+.formTable .l-trigger-pressed,
+.formTable .l-trigger-hover {
+	background: #459FFF !important;
+	border: 1px solid #459FFF !important;
+	height: 38px !important;
+}
+
+.formTable .l-trigger,
+.formTable .l-trigger-hover,
+.formTable .l-trigger-pressed {
+	top: -3px;
+	right: -8px;
+}
+
+.formTable .l-trigger {
+	background: #459FFF;
+	border: 1px solid #459FFF;
+}
+
+.formTable .l-trigger-hover {
+	background: #459FFF;
+	border: 1px solid #459FFF;
+}
+
+
+/*子表*/
+
+div[type="subtable"] {
+	clear: both;
+	position: relative;
+	min-height: 100px;
+}
+
+.content,
+div[type="subtable"] {
+	font-size: 14px;
+	color: #000;
+	width: 60%;
+	padding: 0 60px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.content p {
+	display: none;
+}
+
+.l-tab-links {
+	height: auto;
+	position: absolute;
+	width: auto;
+	right: 50px;
+	top: 15px;
+}
+
+.subTableToolBar a.link.add {
+	color: #459FFF;
+	font-size: 14px;
+}
+
+.listTable .inputText,
+.listTable tr.firstRow {
+	height: 35px;
+	box-sizing: border-box;
+}
+
+.listTable select {
+	height: 30px;
+}
+
+.listTable .headRow {
+	border: 1px solid #EBEEF5;
+	background: #EBEEF5;
+	height: 45px;
+	font-size: 14px;
+	color: #303133;
+	line-height: 45px;
+	font-weight: bold;
+}
+
+.listTable .headRow>div {
+	float: left;
+	text-align: center;
+}
+
+.listTable .listRow {
+	border: 1px solid #EBEEF5;
+	border-top: none;
+	font-size: 12px;
+	line-height: 45px;
+	float: left;
+	width: calc(100% - 2px);
+}
+
+.listTable .listRow>div {
+	float: left;
+	text-align: center;
+}
+
+.listTable .listRow>div>.inputText,
+.listTable .listRow>div>select {
+	margin-top: 9px;
+	width: 90%;
+}
+
+.listTable .listRow>div>a {
+	cursor: pointer;
+}
+
+.listTable tr.special-td {
+	background-color: #F5F7FA;
+}
+
+.listTable tr.special-td td {
+	padding: 15px;
+	text-align: left;
+}
+
+.listTable tr.special-td a {
+	color: #459FFF;
+	font-size: 14px;
+	margin-right: 20px;
+	padding-left: 25px;
+	cursor: pointer;
+}
+
+.listTable tr.headRow {
+	border: 1px solid #EBEEF5;
+	background: #EBEEF5;
+	height: 45px;
+}
+
+.listTable td.formHead {
+	border: none;
+	background: transparent;
+	color: #363E62;
+	font-size: 18px;
+	padding-bottom: 15px;
+}
+
+.listTable td.teamHead {
+	background-color: #F5F7FA;
+	color: #4D4D4D;
+	text-align: center;
+	border: 1px solid #EBEEF5;
+	font-weight: lighter;
+	font-size: 16px;
+	height: 41px;
+	min-width:50px;
+}
+
+.listTable td.teamHead.num {
+	padding: 0px 20px;
+}
+
+.listTable td.formTitle {
+	background-color: #fff;
+	font-size: 14px;
+	padding-right: 10px;
+	width: 100px!important;
+}
+
+/*.listTable td.formInput {*/
+	/*padding: 0;*/
+/*}*/
+
+.listTable td.formInput input {
+	width: 95%;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+.listTable th {
+	border: 1px solid #EBEEF5;
+	background-color: #F5F7FA;
+	font-size: 14px;
+	color: #4D4D4D;
+	text-align: center;
+	font-weight: lighter;
+	white-space: nowrap;
+	padding: 0 20px;
+}
+
+.listTable tr.listRow td {
+	border: 1px solid #EBEEF5;
+	text-align: center;
+	font-size: 14px;
+	word-break: break-word;
+	line-height: 15px;
+}
+.listTable tr.listRow td input.Wdate {
+	height: 36px;
+	font-size: 14px;
+	padding-left: 10px;
+}
+.listTable tr.listRow td .l-text-wrapper {
+	height: auto !important;
+	width: 96% !important;
+}
+.listTable tr.listRow td .l-text-wrapper .l-text {
+	height: 30px !important;
+	padding: 2px;
+	border-radius: 3px;
+	border: 1px solid #ced7e0;
+}
+.listTable tr.listRow td .l-text-wrapper .l-text input {
+	width: 85% !important;
+	height: 32px !important;
+}
+.listTable tr.listRow td span.attachement-span a.cancel {
+	margin-left: 3px;
+}
+.listTable tr.listRow td div[name="div_attachment_container"],
+.listTable td.formInput div[name="div_attachment_container"] {
+	position: relative;
+	float: left;
+	width: 100%;
+	padding-bottom: 40px;
+}
+.listTable tr.listRow td div[name="div_attachment_container"] a.link {
+	left: 0;
+}
+
+.listTable tr.listRow {
+	border: 1px solid #EBEEF5;
+	height: 45px;
+	line-height: 45px;
+	width: 100%;
+	float: none;
+}
+
+.listTable tr.listRow td select,
+.listTable tr.listRow td .inputText,
+.listTable tr.listRow td .inputnumber {
+	border: 1px solid #DCDFE6;
+	width: 120px;
+	padding-left: 10px;
+}
+
+.listTable tr.firstRow {
+	width: 100%;
+}
+
+.listTable tr.headRow {
+	float: none;
+}
+
+.listTable td {
+	border-left: 0;
+}
+
+.listTable td.teamHead.sm-title {
+	text-align: left;
+	border: 0px;
+	padding: 10px 15px;
+	height: 0px;
+}
+
+.listTable .oprate-item {
+	position: relative;
+}
+
+.listTable .oprate-item a {
+	color: #459FFF;
+	font-size: 14px;
+}
+
+.listTable .oprate-item a.oprate {
+	margin-left: 15px;
+	width: 20px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.listTable .oprate-item a.oprate-xs {
+	margin-left: 15px;
+	width: 20px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.listTable .oprate-item a img {
+	vertical-align: sub;
+}
+
+.listTable .child-menu {
+	display: none;
+	box-shadow: 2px 2px 5px #c1c1c1;
+	width: 140px;
+	/*position: absolute;*/
+	position: fixed;
+	background-color: #fff;
+	text-align: left;
+	z-index: 9;
+}
+
+.listTable .child-menu>ul>li {
+	padding-left: 15px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.listTable .child-menu>ul>li a {
+	color: #666;
+}
+
+.listTable .child-menu>ul>li:hover {
+	background: #F0F0F0;
+}
+
+.listTable .listTable td.formHead p {
+	border-left: 5px solid #459FFF;
+	border-bottom: 1px dashed #89969F;
+	padding: 4px;
+	margin: 10px 0px;
+	text-align: left;
+	font-weight: lighter;
+}
+
+
+/* 弹出框iframe 唯一 能看到的class名：l-dialog-frame  类名:l-dialog-frame-tck */
+
+.l-dialog-frame-tck {
+	width: 500px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+}
+
+
+/* 弹出框div 唯一 能看到的class名：l-dialog l-dialog-win  类名:l-dialog-tck */
+
+.l-dialog-tck {
+	width: 500px;
+	left: 0 !important;
+	right: 0;
+	margin: 0 auto;
+}
+
+.l-dialog-tck .l-dialog-table {
+	width: 100%;
+	table-layout: fixed !important;
+}
+
+.l-dialog-tck .l-dialog-table input[type="checkbox"],
+.l-dialog-tck .l-dialog-table input[type="radio"] {
+	margin-bottom: 5px;
+}
+
+.l-dialog-tck .l-dialog-table .l-dialog-body,
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table {
+	width: 100% !important;
+}
+
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content {
+	overflow-y: auto;
+	padding: 3px 15px;
+	height: auto !important;
+	max-height: 70vh;
+}
+
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td,
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table tr {
+	font-size: 14px;
+}
+
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2) {
+	text-align: start;
+}
+
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2)>div {
+	width: 100% !important;
+	/*margin-top: 1px;*/
+}
+
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2)>div a.link.selectFile {
+	background: #459FFF;
+	padding: 2px 10px;
+}
+
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2)>div input.position,
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2)>div input.positions,
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2)>div input.user,
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2)>div input.users,
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2)>div input.org,
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2)>div input.orgs,
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2)>div input.role,
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2)>div input.roles {
+	width: 80%;
+	border-radius: 0;
+	padding: 2px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	font-size: 13px;
+	border: 1px solid #CCCCCC;
+}
+
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2)>div a.position,
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2)>div a.positions,
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2)>div a.user,
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2)>div a.users,
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2)>div a.org,
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2)>div a.orgs,
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2)>div a.role,
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2)>div a.roles {
+	background-color: #459FFF;
+	color: #fff;
+	padding: 0 10px;
+	display: inline-block;
+	height: 26px;
+	line-height: 27px;
+	text-align: center;
+	width: 13.5%;
+}
+
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2)>div .l-text {
+	width: calc(100% - 2px) !important;
+	border: 1px solid #CCCCCC
+}
+
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2)>div .l-text .l-text-field {
+	width: calc(100% - 8px) !important;
+	height: 21px !important;
+	padding-left: 10px;
+	font-size: 13px;
+}
+
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2) .l-trigger {
+	height: 23px !important;
+	right: 0;
+	top: -1px;
+	background: #459FFF;
+	border: 1px solid #459FFF;
+	width: 10px !important;
+	cursor: default;
+}
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2) .l-trigger-hover,
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2) .l-trigger-pressed {
+	background: #459FFF !important;
+	border: 1px solid #459FFF !important;
+	width: 10px !important;
+	height: 23px !important;
+	right: 0;
+	top: -1px;
+	cursor: default;
+}
+
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table .headRow {
+	text-align: start;
+}
+
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table .inputText,
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table select,
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table textarea {
+	width: 100% !important;
+	border: 1px solid #CCCCCC;
+	border-radius: 0px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table .Wdate {
+	border-radius: 0px;
+	box-sizing: border-box;
+	padding: 2px;
+	height: auto;
+	width: 100%;
+	padding-left: 10px;
+	border: 1px solid #CCCCCC;
+}
+
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table select {
+	line-height: 20px;
+	padding: 2px 2px 2px 6px;
+}
+
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-buttons {
+	background: #fff;
+}
+
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-buttons .l-dialog-btn-inner {
+	background-color: #459FFF;
+	color: #fff;
+	border-radius: 3px;
+}
+
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-buttons .l-dialog-btn-inner .l-dialog-btn {
+	margin-right: 17px;
+}
+
+.l-dialog-frame-tck {
+	display: none !important;
+}
+
+/* 新增 */
+.listTable tr.listRow td {
+	padding: 10px 0;
+}
+.formTable-wrap.one .formTable .l-trigger,
+.formTable-wrap.one .formTable .l-trigger-hover,
+.formTable-wrap.one .formTable .l-trigger-pressed,
+.formTable-wrap.four .formTable .l-trigger,
+.formTable-wrap.four .formTable .l-trigger-hover,
+.formTable-wrap.four .formTable .l-trigger-pressed {
+	right:0px;
+}
+
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2) {
+	position: relative;
+	padding: 5px 2px !important;
+}
+.l-dialog-tck div.attachement {
+	margin-bottom: 25px;
+}
+.l-dialog-tck .l-dialog-table .l-dialog-body .l-dialog-content table td:nth-child(2)>div a.link.selectFile {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+input[type="checkbox"]:disabled::before,
+input[type="radio"]:disabled::before {
+	background: #ececec;
+}
+.formTable .formInput div[name="div_attachment_container"] a.link {
+	bottom: 0;
+	top: auto;
+}
+
+
+
+/* 表类名 */
+.sub-complete-grid {
+	width: 60%;
+	padding: 30px 60px;
+	margin: 0 auto;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	background-color: #fff;
+}
+.sub-complete-grid  .table-grid th {
+	border: 1px solid #EBEEF5;
+	background-color: #F5F7FA;
+	font-size: 14px;
+	color: #4D4D4D;
+	text-align: center;
+	font-weight: lighter;
+}
+.sub-complete-grid .table-grid td {
+	border: 1px solid #EBEEF5;
+	text-align: center;
+	font-size: 14px;
+	word-break: break-word;
+	line-height: 15px;
+	padding: 10px 0;
+}
+
+/*图标*/
+.listTable tr.special-td a:first-child{
+	background: url(./up.png) no-repeat left center;
+}
+.listTable tr.special-td a:nth-child(2){
+	background: url(./down.png) no-repeat left center;
+}
+.listTable tr.special-td a:nth-child(3){
+	background: url(./before.png) no-repeat left center;
+}
+.listTable tr.special-td a:nth-child(4){
+	background: url(./after.png) no-repeat left center;
+}
+.listTable tr.special-td a:last-child{
+	background: url(./del.png) no-repeat left center;
+}
+.listTable .oprate-item a.oprate {
+	background: url(./more.png) no-repeat left center;
+}
+.listTable .oprate-item a.oprate-xs {
+	background: url(./more.png) no-repeat left center;
+}
+a.download{
+	background:url(./arrow.png) 0 1px no-repeat;
+	display:inline-block;
+	height:14px;
+	margin-left:8px;
+	overflow:hidden;
+	width:14px;
+	text-decoration:none;
+}
+a.cancel{
+	background:url(./cancel.png) 0 1px no-repeat;
+	display:inline-block;
+	height:14px;
+	margin-left:8px;
+	overflow:hidden;
+	width:14px;
+	text-decoration:none;
+}
+
+/*编辑模式*/
+.view .formTable-wrap{
+	width:100%;
+	padding:0px;
+}
+.view .formTable input[type="text"],.view .formTable select {
+	width: 90%;
+	margin-top: 20px;
+}
+.view table.formTable, .view td.teamHead,.view td.formTitle,.view td.formInput{
+	border:1px  solid #000;
+}
+
+div[type="subtable"]  table span.attachement-span {
+	display: inline-block;
+	padding: 1px 3px 1px 5px;
+	max-width: 100%;
+	margin: 0 10px;
+}
+div[type="subtable"]  table span.attachement-span > span {
+	display: inline-block;
+}
+div[type="subtable"]  table span.attachement-span > span a.attachment {
+	display: inline-block;
+	max-width: 100%;
+	white-space: nowrap;
+}
+div[type="subtable"] table span.attachement-span > a.download {
+	margin-left: -2px;
+}
+
+.listTable td.formInput textarea {
+	font-size: 14px;
+	padding-left: 10px;
+	border: 1px solid #ced7e0;
+	width: 95%;
+}
+.listTable td.formInput .l-text-wrapper {
+	height: auto !important;
+	width: 96% !important;
+}
+.listTable td.formInput .l-text-wrapper .l-text {
+	width: 100% !important;
+	height: 30px !important;
+	padding: 2px;
+	border-radius: 3px;
+	border: 1px solid #ced7e0;
+}
+.listTable td.formInput .l-text-wrapper .l-text input {
+	width: 96% !important;
+	height: 32px !important;
+}
+.listTable td.formInput .l-text-wrapper .l-text .l-trigger,
+.listTable tr.listRow td .l-text-wrapper .l-text .l-trigger {
+	height: 34px !important;
+	top: -1px;
+	right: -1px;
+	background: #459FFF;
+	border: 1px solid #459FFF;
+}
+.listTable td.formInput > div input.role,
+.listTable td.formInput > div input.roles,
+.listTable td.formInput > div input.user,
+.listTable td.formInput > div input.users,
+.listTable td.formInput > div input.org,
+.listTable td.formInput > div input.orgs,
+.listTable td.formInput > div input.position,
+.listTable td.formInput > div input.positions,
+.listTable tr.listRow td > div input.role,
+.listTable tr.listRow td > div input.roles,
+.listTable tr.listRow td > div input.user,
+.listTable tr.listRow td > div input.users,
+.listTable tr.listRow td > div input.org,
+.listTable tr.listRow td > div input.orgs,
+.listTable tr.listRow td > div input.position,
+.listTable tr.listRow td > div input.positions {
+	width: 90%;
+	height: 30px;
+	padding: 2px;
+	border: 1px solid #ced7e0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.listTable td.formInput > div a.role,
+.listTable td.formInput > div a.roles,
+.listTable td.formInput > div a.user,
+.listTable td.formInput > div a.users,
+.listTable td.formInput > div a.org,
+.listTable td.formInput > div a.orgs,
+.listTable td.formInput > div a.position,
+.listTable td.formInput > div a.positions,
+.listTable tr.listRow td > div a.role,
+.listTable tr.listRow td > div a.roles,
+.listTable tr.listRow td > div a.user,
+.listTable tr.listRow td > div a.users,
+.listTable tr.listRow td > div a.org,
+.listTable tr.listRow td > div a.orgs,
+.listTable tr.listRow td > div a.position,
+.listTable tr.listRow td > div a.positions {
+	padding: 0 13px;
+	height: 37px;
+	display: inline-block;
+	background: #459FFF;
+	line-height: 37px;
+	color: #fff;
+	font-size: 14px;
+}
+.listTable td.formInput div[name="div_attachment_container"] {
+	position: relative;
+	float: left;
+	width: 100%;
+	padding-bottom: 40px;
+}
+.listTable td.formInput div[name="div_attachment_container"] a.link {
+	left: 6px;
+}
+.listTable td.formInput div[name="div_attachment_container"] a.link,
+.listTable tr.listRow td div[name="div_attachment_container"] a.link {
+	position: absolute;
+	top: auto;
+	bottom: 0;
+	line-height: 36px;
+	height: 36px;
+	padding: 0 15px;
+	background: #459FFF;
+	color: #fff;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.listTable td.formInput select {
+	width: 96.5%;
+	font-size: 14px;
+	padding-left: 10px;
+	padding: 2px 10px;
+	border: 1px solid #ced7e0;
+}
+.listTable td.formInput input[type="checkbox"],
+.listTable td.formInput input[type="radio"] {
+	width: 20px !important;
+}
+.listTable td.formInput input.Wdate {
+	height: 36px;
+}
+.l-tab .l-tab-l {
+	position: fixed;
+	height: 400px;
+	background: #fff;
+	width: 150px;
+	top: 110px;
+	border: 1px solid #eee;
+}
+
+
+.l-tab-l .l-tab-links {
+	position: relative;
+	top: 0;
+	right: 0;
+	background: #fff;
+}
+
+
+.l-tab-l .l-tab-links ul {
+	position: relative;
+	width: 100%;
+	background: #fff;
+	height: auto;
+}
+
+
+.l-tab-l .l-tab-links li {
+	position: relative;
+	width: 100%;
+	margin: 0;
+	background: #e8f0fe;
+}
+
+
+.l-tab-l .l-tab-links li a {
+	color: #000;
+	width: 100%;
+	display: block;
+	padding: 0;
+	text-align: center;
+}
+
+
+.l-tab-l .l-tab-links li.l-selected {
+	background: #459FFF;
+}
+
+
+.l-tab-l .l-tab-links li.l-selected a {
+	background: none;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	padding: 0;
+	border-radius: 0;
+}
+.formTable-wrap {
+	margin-top: 30px;
+}
+
+table.listTable tr.listRow td {
+	border: none;
+	white-space: nowrap;
+	padding: 0 5px;
+}
+
+table.listTable tr.listRow td .select2-container{
+	width: auto !important;
+}
+
+table.listTable tr.listRow td .select2-container .select2-choice{
+	width: 120px;
+}
+
+table.listTable tr.listRow td .select2-container .select2-choice{
+	width: 120px;
+}
+
+table.listTable tr.listRow td .select2-container .select2-choices{
+	width: 200px;
+	padding-right: 0;
+}
+
+table.listTable tr.listRow td .link {
+	height: 35px !important;
+	line-height: 35px !important;
+	vertical-align: middle;
+}
+
+/* 移动端 */
+@media only screen and (max-width:480px) {
+	.noprint > table.table-grid {
+		width:100% !important;
+	}
+	.listTable .child-menu {
+		padding-left: 5px;
+		width: 85px;
+	}
+	.listTable .child-menu>ul>li a {
+		font-size: 12px;
+		diaplay: block;
+	}
+	div[type="sub"] {
+		width: 100%;
+		padding: 0px 15px;
+		box-sizing: border-box;
+		clear: both;
+	}
+
+	.panel-toolbar a.link {
+		padding: 0 7px;
+	}
+	.sub-complete-grid {
+		width: 100% !important;
+		box-sizing: border-box;
+		clear: both;
+		border-radius: 0;
+		padding: 10px !important;
+	}
+	.sub-complete-grid .table-grid {
+		table-layout: fixed;
+	}
+	.sub-complete-grid .table-grid th {
+		height: auto;
+		line-height: 25px;
+		white-space: pre-wrap;
+	}
+	.formTable-wrap.three .formTable td.formTitle{
+		text-align: left;
+	}
+	.panel-toolbar a.print {
+		display:none;
+	}
+	.formTable-wrap {
+		width: 100%;
+		padding: 0px 15px;
+		box-sizing: border-box;
+		clear: both;
+	}
+	.formTable td.formTitle {
+		/*width: 100% !important;*/
+		display: block;
+		text-align: left;
+		padding-bottom: 0px;
+		overflow: hidden;
+	}
+	.formTable td.formInput>div>a.link {
+		right: -1px;
+	}
+	.formTable tbody#qt>tr>td.formInput {
+		width: calc(100% - 35px);
+	}
+	.formTable td.formInput {
+		display: block;
+		width: 100% !important;
+		padding-left: 0px;
+		margin-bottom: 0px;
+		padding-bottom: 10px;
+		margin-top: 8px;
+	}
+	.formTable td.teamHead p {
+		width: 100%;
+	}
+	.formTable td.formInput label {
+		margin-top: 3px;
+		margin-bottom: 5px;
+	}
+	.content,
+	div[type="subtable"] {
+		width: 100%;
+		padding: 0px 15px;
+		box-sizing: border-box;
+	}
+	div[type="subtable"]:last-of-type {
+		padding: 0 15px 20px;
+	}
+	.l-tab-links {
+		right: 0;
+	}
+	.l-dialog-tck {
+		width: 100%;
+		position: fixed;
+		top: 10% !important;
+	}
+	.listTable td.formInput input {
+		box-sizing: border-box;
+	}
+	.listTable td.formTitle {
+		width: 50px !important;
+		word-break: break-word;
+	}
+	.panel-toolbar {
+		float: right;
+		width: 100%;
+		height: auto;
+		margin-bottom: 20px;
+		padding: 15px 0;
+	}
+	.panel-toolbar a.link span {
+		display: none;
+	}
+	.panel-toolbar a.close {
+		background: none !important;
+	}
+	.group {
+		float: right;
+		margin-right: 5px;
+		margin-bottom: 5px;
+		margin-top: 2px;
+	}
+	.formTable .l-trigger,
+	.formTable .l-trigger-hover,
+	.formTable .l-trigger-pressed {
+		right: -1px !important;
+	}
+	.formTable td.formInput>div>a.link {
+		right: 1px !important;
+	}
+	div[type="subtable"] table {
+		table-layout: fixed;
+	}
+}
+
+/*子表自适应样式*/
+.firstRow.last-title {
+	width:100%;
+	line-height: 30px;
+}
+.last-title .formHead {
+	color: #363E62;
+	font-size: 18px;
+	padding-bottom: 15px;
+}
+.last-title .formHead p {
+	border-bottom: 1px dashed #89969F;
+	padding-bottom: 5px;
+	margin: 10px 0px 25px 0px;
+	text-align: left;
+}
+.last-title .formHead span {
+	border-left: 5px solid #459FFF;
+	padding: 0px 8px;
+}
+.chooseJumpType {
+	clear: both;
+	display: inline-block;
+}
+.chooseJumpType span {
+	display:inline-block;
+}
+.noprint > table.table-grid {
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 70%;
+}
+
+.listTable .listRow .oprate-item .oprate-inner.mobile{
+	display:none;
+}
+
+.listTable .listRow .oprate-item .oprate-inner{
+	display:inline-block;
+}
+
+.panel-toolbar .toolBar .mobileLogo {
+	display:none;
+}
+
+.panel-toolbar .toolBar > div.flowLogo {
+	float: left;
+	width: 25%;
+}
+.panel-toolbar .toolBar > div.flowButton {
+	float: left;
+	width: 75%;
+}
+
+.formTable-wrap .formInput > span {
+	display: inline-block;
+	width: 100%;
+	line-height: 30px;
+	background-color: #F0F0F0;
+	border: 1px solid #E6E6E6;
+	box-sizing: border-box;
+	padding-left: 15px;
+	min-height: 30px;
+}
+
+ .attachement span {
+	display: inline-block;
+	line-height: 30px;
+	background-color: #F0F0F0;
+	border: 1px solid #E6E6E6;
+	box-sizing: border-box;
+	padding-left: 15px;
+	min-height: 30px;
+}
+
+.status-img {
+	position: absolute;
+	left: 75%;
+	top: 16%;
+}
+
+/* 重写select2样式 */
 .select2-container{
 	position: relative;
 	box-sizing: border-box !important;
